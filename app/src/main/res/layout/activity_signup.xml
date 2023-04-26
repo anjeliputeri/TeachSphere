@@ -7,12 +7,50 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/tvregistrasi"
+        android:layout_width="155dp"
+        android:layout_height="36dp"
+        android:text="Registrasi"
+        android:textColor="@color/primary"
+        android:textSize="30sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginEnd="183dp"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="312dp"
+        android:layout_height="53dp"
+        android:background="@drawable/rectangle_white"
+        android:hint="   username"
+        android:textColorHint="@color/primary"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvregistrasi"
+        android:layout_marginTop="150dp"
+        />
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="312dp"
+        android:layout_height="53dp"
+        android:background="@drawable/rectangle_white"
+        android:hint="   password"
+        android:textColorHint="@color/primary"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/username"
+        android:layout_marginTop="30dp"
+        />
+
+
+
+        />
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
