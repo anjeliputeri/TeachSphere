@@ -7,6 +7,10 @@
         <entry key="..\:/TeachSphere/app/src/main/res/drawable/shape_rectangle_blue.xml" value="0.164" />
         <entry key="..\:/TeachSphere/app/src/main/res/layout/activity_sign_in.xml" value="0.2" />
         <entry key="..\:/TeachSphere/app/src/main/res/layout/fragment_home.xml" value="0.12158054711246201" />
+        <entry key="..\:/TeachSphere/app/src/main/res/layout/activity_home.xml" value="0.1" />
+        <entry key="..\:/TeachSphere/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/TeachSphere/app/src/main/res/layout/fragment_dashboard.xml" value="0.25" />
+        <entry key="..\:/TeachSphere/app/src/main/res/layout/fragment_home.xml" value="0.25" />
       </map>
     </option>
   </component>
