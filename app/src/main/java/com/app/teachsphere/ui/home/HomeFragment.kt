@@ -1,12 +1,17 @@
 package com.app.teachsphere.ui.home
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
+import com.app.teachsphere.HomeActivity
+import com.app.teachsphere.TutorProfile
 import com.app.teachsphere.databinding.FragmentHomeBinding
 
 class HomeFragment : Fragment() {
@@ -32,6 +37,14 @@ class HomeFragment : Fragment() {
 //        homeViewModel.text.observe(viewLifecycleOwner) {
 //            textView.text = it
 //        }
+
+        var buttonToTutor : ImageView = binding.ivPhoto1
+        buttonToTutor.setOnClickListener {
+           activity?.let {
+               val pindah = Intent(it, TutorProfile::class.java)
+               it.startActivity(pindah)
+           }
+        }
         return root
     }
 
