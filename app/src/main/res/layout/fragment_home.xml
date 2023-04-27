@@ -21,11 +21,49 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/cdHome"
         android:layout_width="match_parent"
         android:layout_height="239dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:cardBackgroundColor="@color/primary"/>
+        app:cardBackgroundColor="@color/primary">
+
+        <ImageView
+            android:id="@+id/ivHome"
+            android:layout_width="173dp"
+            android:layout_height="173dp"
+            android:layout_marginTop="42dp"
+            android:layout_marginBottom="24dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginStart="180dp"
+            app:srcCompat="@drawable/img_home"/>
+
+        <TextView
+            android:id="@+id/tvTemu"
+            android:layout_width="158dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="69dp"
+            android:layout_marginBottom="110dp"
+            android:layout_marginEnd="182dp"
+            android:layout_marginStart="20dp"
+            android:text="Temukan tutor impianmu"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvPilih"
+            android:layout_width="119dp"
+            android:layout_height="22dp"
+            android:layout_marginTop="129dp"
+            android:layout_marginBottom="88dp"
+            android:layout_marginEnd="221dp"
+            android:layout_marginStart="20dp"
+            android:text="@string/pilih_sekarang"
+            android:textColor="@color/white"
+            android:textSize="16sp"/>
+
+    </androidx.cardview.widget.CardView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
