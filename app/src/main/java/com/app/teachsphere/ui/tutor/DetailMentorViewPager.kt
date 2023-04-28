@@ -24,6 +24,10 @@ internal class DetailMentorViewPager(var context: Context, fm: FragmentManager, 
             2 -> {
                 PengalamanFragment()
             }
+
+            3 -> {
+                KeterampilanFragment()
+            }
             else -> {
                 getItem(position)
             }

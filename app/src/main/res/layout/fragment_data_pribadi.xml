@@ -1,16 +1,151 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".ui.tutor.DataPribadiFragment">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
+        android:layout_marginTop="20dp"
+        android:textSize="14sp"
+        android:fontFamily="@font/poppins"
+        android:textColor="@color/primary"
+        android:text="Nama Lengkap"
+        android:layout_marginStart="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/tv_fullname"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="Data Diri"
-        android:textSize="40dp" />
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:focusable="false"
+        android:enabled="false"
+        android:id="@+id/etFullname"
+        android:textSize="14sp"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="@color/primary"
+        android:paddingHorizontal="15dp"
+        android:text="Yura"
+        android:background="@drawable/custom_input_rounded_box"
+        android:inputType="none"
+        android:layout_marginHorizontal="24dp"
+        app:layout_constraintTop_toBottomOf="@id/tv_fullname"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
 
-</RelativeLayout>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="14sp"
+        android:fontFamily="@font/poppins"
+        android:textColor="@color/primary"
+        android:text="Tanggal Lahir"
+        android:layout_marginStart="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etFullname"
+        android:id="@+id/tvTanggalLahir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:focusable="false"
+        android:enabled="false"
+        android:textSize="14sp"
+        android:id="@+id/etTanggalLahir"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="@color/primary"
+        android:paddingHorizontal="15dp"
+        android:text="02/02/1998"
+        android:background="@drawable/custom_input_rounded_box"
+        android:inputType="none"
+        android:layout_marginHorizontal="24dp"
+        app:layout_constraintTop_toBottomOf="@id/tvTanggalLahir"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="14sp"
+        android:fontFamily="@font/poppins"
+        android:textColor="@color/primary"
+        android:text="Whatsapp"
+        android:layout_marginStart="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etTanggalLahir"
+        android:id="@+id/tvWhatsapp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:focusable="false"
+        android:enabled="false"
+        android:textSize="14sp"
+        android:id="@+id/etWhatsapp"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="@color/primary"
+        android:paddingHorizontal="15dp"
+        android:text="085156407816"
+        android:background="@drawable/custom_input_rounded_box"
+        android:inputType="none"
+        android:layout_marginHorizontal="24dp"
+        app:layout_constraintTop_toBottomOf="@id/tvWhatsapp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="14sp"
+        android:fontFamily="@font/poppins"
+        android:textColor="@color/primary"
+        android:text="Instagram"
+        android:layout_marginStart="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etWhatsapp"
+        android:id="@+id/tvInstagram"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:focusable="false"
+        android:enabled="false"
+        android:textSize="14sp"
+        android:id="@+id/etInstagram"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="@color/primary"
+        android:paddingHorizontal="15dp"
+        android:text="\@yuraaaa"
+        android:background="@drawable/custom_input_rounded_box"
+        android:inputType="none"
+        android:layout_marginHorizontal="24dp"
+        app:layout_constraintTop_toBottomOf="@id/tvInstagram"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="14sp"
+        android:fontFamily="@font/poppins"
+        android:textColor="@color/primary"
+        android:text="Alamat Domisili"
+        android:layout_marginStart="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etInstagram"
+        android:id="@+id/tvAlamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:focusable="false"
+        android:enabled="false"
+        android:textSize="14sp"
+        android:id="@+id/etAlamat"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="@color/primary"
+        android:paddingVertical="10dp"
+        android:paddingHorizontal="15dp"
+        android:text="Jl. Kapten Maulana Lubis No.8, Petisah Tengah, Kec. Medan Petisah, Kota Medan, Sumatera Utara 20112"
+        android:background="@drawable/custom_input_rounded_box"
+        android:inputType="none"
+        android:layout_marginHorizontal="24dp"
+        app:layout_constraintTop_toBottomOf="@id/tvAlamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
