@@ -1,16 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".ui.tutor.PengalamanFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:textSize="40dp"
-        android:layout_centerInParent="true"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Pengalaman" />
+    <ImageView
+        android:id="@+id/logoInstansi"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ganesha"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="80dp"
+        android:layout_height="80dp"/>
 
-</RelativeLayout>
+    <TextView
+        android:id="@+id/posisi"
+        android:textColor="@color/primary"
+        android:textSize="16sp"
+        android:fontFamily="@font/poppins_medium"
+        android:layout_marginTop="25dp"
+        android:text="Tutor"
+        app:layout_constraintStart_toEndOf="@id/logoInstansi"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textColor="@color/primary"
+        android:fontFamily="@font/poppins"
+        android:text="Ganesha Operation"
+        android:id="@+id/namaInstansi"
+        app:layout_constraintTop_toBottomOf="@id/posisi"
+        app:layout_constraintStart_toEndOf="@+id/logoInstansi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+    <TextView
+        android:textSize="14sp"
+        android:textColor="@color/primary"
+        android:fontFamily="@font/poppins"
+        android:text="02/02/2021"
+        android:id="@+id/tglMulai"
+        app:layout_constraintStart_toEndOf="@+id/logoInstansi"
+        app:layout_constraintTop_toBottomOf="@id/namaInstansi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+    <TextView
+        android:textSize="14sp"
+        android:textColor="@color/primary"
+        android:fontFamily="@font/poppins"
+        android:text=" - 02/02/2022"
+        android:id="@+id/tglSelesai"
+        app:layout_constraintStart_toEndOf="@+id/tglMulai"
+        app:layout_constraintTop_toBottomOf="@id/namaInstansi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -18,7 +18,7 @@ class TutorProfile : AppCompatActivity() {
         viewPager = findViewById(R.id.viewpager)
 
         tabLayout.addTab(tabLayout.newTab().setIcon(R.drawable.ic_baseline_person_24))
-        tabLayout.getTabAt(0)!!.setText("Data Diri")
+//        tabLayout.getTabAt(0)!!.setText("Data Diri")
         tabLayout.addTab(tabLayout.newTab().setIcon(R.drawable.pendidikan))
         tabLayout.addTab(tabLayout.newTab().setIcon(R.drawable.pengalaman))
         tabLayout.addTab(tabLayout.newTab().setIcon(R.drawable.keterampilan))
@@ -30,18 +30,18 @@ class TutorProfile : AppCompatActivity() {
         tabLayout.addOnTabSelectedListener(object : TabLayout.OnTabSelectedListener{
             override fun onTabSelected(tab: TabLayout.Tab?) {
                 viewPager.currentItem = tab!!.position
-                if(tab!!.position == 0){
-                    tabLayout.getTabAt(0)!!.setText("Data Diri")
-                }else if(tab!!.position == 1){
-                    tabLayout.getTabAt(1)!!.setText("Pendidikan")
+//                if(tab!!.position == 0){
+//                    tabLayout.getTabAt(0)!!.setText("Data Diri")
+//                }else if(tab!!.position == 1){
+//                    tabLayout.getTabAt(1)!!.setText("Pendidikan")
+//
+//                }else if(tab!!.position == 2){
+//                    tabLayout.getTabAt(2)!!.setText("Pengalaman")
+//
+//                }else if(tab!!.position == 3){
+//                    tabLayout.getTabAt(3)!!.setText("Keterampilan")
 
-                }else if(tab!!.position == 2){
-                    tabLayout.getTabAt(2)!!.setText("Pengalaman")
-
-                }else if(tab!!.position == 3){
-                    tabLayout.getTabAt(3)!!.setText("Keterampilan")
-
-                }
+//                }
 
             }
 
