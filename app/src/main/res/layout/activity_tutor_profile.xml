@@ -239,18 +239,6 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/profileStat">
-                <com.google.android.material.tabs.TabItem
-                    android:layout_width="match_parent"
-                    android:text="Data Diri"
-                    android:layout_height="wrap_content"/>
-                <com.google.android.material.tabs.TabItem
-                    android:layout_width="match_parent"
-                    android:text="Pendidikan"
-                    android:layout_height="wrap_content"/>
-                <com.google.android.material.tabs.TabItem
-                    android:layout_width="match_parent"
-                    android:text="Pengalaman"
-                    android:layout_height="wrap_content"/>
 
 
 
@@ -259,7 +247,7 @@
             <androidx.viewpager.widget.ViewPager
                 app:layout_constraintTop_toBottomOf="@id/tabLayout"
                 android:layout_width="match_parent"
-                android:layout_height="800dp"
+                android:layout_height="500dp"
                 android:id="@+id/viewpager"/>
         </LinearLayout>
 
