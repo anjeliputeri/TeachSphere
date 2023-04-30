@@ -3,7 +3,7 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         tools:context=".ui.home.HomeFragment">
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -172,18 +172,16 @@
 
         <HorizontalScrollView
             android:layout_width="match_parent"
-            android:layout_height="216dp"
+            android:layout_height="300dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/tvBimbingan"
             tools:ignore="SpeakableTextPresentCheck">
-
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
-                android:layout_marginEnd="100dp"
-                android:orientation="horizontal">
+                android:layout_marginEnd="100dp">
 
                 <ImageView
                     android:id="@+id/ivSd"
