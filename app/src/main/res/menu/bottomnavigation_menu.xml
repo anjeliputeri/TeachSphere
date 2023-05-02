@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/itemberanda"
+        android:icon="@drawable/beranda"
+        android:title="Beranda" />
+    <item
+        android:id="@+id/itemtutor"
+        android:icon="@drawable/tutor"
+        android:title="Tutor" />
+    <item
+        android:id="@+id/itemprofil"
+        android:icon="@drawable/profile"
+        android:title="Profil" />
+</menu>
