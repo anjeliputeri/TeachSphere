@@ -61,7 +61,7 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/yura"
+                android:src="@drawable/urip"
                 android:layout_gravity="center">
 
             </ImageView>
@@ -69,7 +69,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Rp 50.000/Jam"
+                android:text="Rp 100.000/Jam"
                 android:textColor="@color/buttoncolor"
                 android:fontFamily="@font/poppins"
                 android:textSize="12dp"
@@ -80,7 +80,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Yura"
+                android:text="Urip"
                 android:textColor="@color/buttoncolor"
                 android:fontFamily="@font/poppins"
                 android:textSize="12dp"
@@ -91,7 +91,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Medan"
+                android:text="Semarang"
                 android:textColor="@color/buttoncolor"
                 android:textSize="12dp"
                 android:layout_gravity="center_horizontal"
