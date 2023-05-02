@@ -17,10 +17,10 @@
             android:name=".LikeTutor"
             android:exported="false" />
         <activity
-            android:name=".BestTutor"
+            android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".BestTutor"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

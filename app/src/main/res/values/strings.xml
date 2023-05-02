@@ -1,3 +1,42 @@
 <resources>
     <string name="app_name">TeachSphere</string>
+    <string-array name="nama_tutor">
+        <item>Yura</item>
+        <item>Jani</item>
+        <item>Urip</item>
+        <item>Adit</item>
+        <item>Michael</item>
+    </string-array>
+
+    <string-array name="alamat_tutor">
+        <item>Medan</item>
+        <item>Bekasi</item>
+        <item>Semarang</item>
+        <item>Medan</item>
+        <item>Bekasi</item>
+    </string-array>
+
+    <string-array name="harga_tutor">
+        <item>Rp 50.000/jam</item>
+        <item>Rp 75.000/jam</item>
+        <item>Rp 100.000/jam</item>
+        <item>Rp 100.000/jam</item>
+        <item>Rp 60.000/jam</item>
+    </string-array>
+
+    <integer-array name="gambar_tutor">
+        <item>@drawable/yura</item>
+        <item>@drawable/jani</item>
+        <item>@drawable/urip</item>
+        <item>@drawable/adit</item>
+        <item>@drawable/michael</item>
+    </integer-array>
+
+    <string-array name="id_tutor">
+        <item>001</item>
+        <item>002</item>
+        <item>003</item>
+        <item>004</item>
+        <item>005</item>
+    </string-array>
 </resources>
