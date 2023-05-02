@@ -51,24 +51,55 @@
         android:gravity="center"
         android:orientation="horizontal">
 
-        <Button
-            android:id="@+id/tutoryura"
+        <androidx.cardview.widget.CardView
             android:layout_width="150dp"
             android:layout_height="170dp"
-            android:text="Rp.50.000/Jam"
-            android:textColor="@color/buttoncolor"
-            android:fontFamily="@font/poppins"
-            android:background="@drawable/button_tutor">
-        </Button>
+            app:cardBackgroundColor="@color/primarycolor"
+            android:background="@drawable/button_tutor"
+            android:layout_marginRight="200dp">
 
-        <Button
-            android:layout_width="150dp"
-            android:layout_height="170dp"
-            android:background="@drawable/button_tutor">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/yura"
+                android:layout_gravity="center">
 
-        </Button>
+            </ImageView>
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rp 50.000/Jam"
+                android:textColor="@color/buttoncolor"
+                android:fontFamily="@font/poppins"
+                android:textSize="12dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp">
+            </TextView>
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yura"
+                android:textColor="@color/buttoncolor"
+                android:fontFamily="@font/poppins"
+                android:textSize="12dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="130dp">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Medan"
+                android:textColor="@color/buttoncolor"
+                android:textSize="12dp"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/poppins"
+                android:layout_marginTop="145dp">
+            </TextView>
+
+        </androidx.cardview.widget.CardView>
 
     </LinearLayout>
 

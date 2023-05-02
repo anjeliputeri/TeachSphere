@@ -42,10 +42,9 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/mtk"
                 android:layout_marginLeft="10dp"
-                android:layout_marginTop="30dp">
-            </ImageView>
+                android:layout_marginTop="30dp"
+                android:src="@drawable/mtk"></ImageView>
 
             <TextView
                 android:layout_width="wrap_content"
