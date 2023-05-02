@@ -14,6 +14,9 @@
         android:theme="@style/Theme.TeachSphere"
         tools:targetApi="31">
         <activity
+            android:name=".sertifikatutorsma"
+            android:exported="false" />
+        <activity
             android:name=".sertifikatutorsmp"
             android:exported="false" />
         <activity
