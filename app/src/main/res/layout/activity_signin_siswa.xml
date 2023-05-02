@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/img_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/logoteachsphere" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:layout_below="@+id/img_2"
+        android:padding="30dp"
+        android:id="@+id/linear">
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:background="@drawable/button_outline"
+            android:hint="Email"
+            android:textColor="@color/primarycolor"
+            android:paddingLeft="30dp"
+            android:id="@+id/edit_email"
+            android:drawableRight="@drawable/user"
+            android:drawablePadding="10dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:background="@drawable/button_outline"
+            android:layout_marginTop="20dp"
+            android:hint="kata sandi"
+            android:paddingLeft="20dp"
+            android:id="@+id/edit_kata_sandi"
+            android:textColor="@color/primarycolor"
+            android:drawableRight="@drawable/password"
+            android:drawablePadding="10dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear"
+        android:background="@drawable/button_shape"
+        android:layout_marginTop="20dp"
+        android:text="@string/masuk"
+        android:textColor="@color/buttoncolor"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/button_signinsiswa">
+
+    </Button>
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_signinsiswa"
+        android:text="Belum memiliki akun? Buat sekarang"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/primarycolor">
+
+    </TextView>
+
+
+</RelativeLayout>

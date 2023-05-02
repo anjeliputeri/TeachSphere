@@ -14,6 +14,12 @@
         android:theme="@style/Theme.TeachSphere"
         tools:targetApi="31">
         <activity
+            android:name=".Profil"
+            android:exported="false" />
+        <activity
+            android:name=".SigninSiswa"
+            android:exported="false" />
+        <activity
             android:name=".Splashscreen"
             android:exported="false" />
         <activity
