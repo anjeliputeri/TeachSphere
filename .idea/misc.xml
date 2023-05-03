@@ -8,6 +8,7 @@
         <entry key="..\:/TeachSphere/app/src/main/res/drawable-v24/searchview_background.xml" value="0.157" />
         <entry key="..\:/TeachSphere/app/src/main/res/drawable-v24/shape_line_black.xml" value="0.1615" />
         <entry key="..\:/TeachSphere/app/src/main/res/drawable-v24/shape_rectangle_grey.xml" value="0.1615" />
+        <entry key="..\:/TeachSphere/app/src/main/res/drawable/cari_box.xml" value="0.1545" />
         <entry key="..\:/TeachSphere/app/src/main/res/drawable/ic_back_blue.xml" value="0.1655" />
         <entry key="..\:/TeachSphere/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.1" />
         <entry key="..\:/TeachSphere/app/src/main/res/drawable/ic_next.xml" value="0.1615" />
@@ -45,6 +46,7 @@
         <entry key="..\:/TeachSphere/app/src/main/res/layout/activity_user_profile.xml" value="0.25" />
         <entry key="..\:/TeachSphere/app/src/main/res/layout/fragment_dashboard.xml" value="0.25" />
         <entry key="..\:/TeachSphere/app/src/main/res/layout/fragment_home.xml" value="0.264" />
+        <entry key="..\:/TeachSphere/app/src/main/res/layout/fragment_notifications.xml" value="0.20244565217391305" />
         <entry key="..\:/TeachSphere/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25" />
       </map>
     </option>

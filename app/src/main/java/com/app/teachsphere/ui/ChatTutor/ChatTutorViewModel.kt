@@ -1,10 +1,10 @@
-package com.app.teachsphere.ui.dashboard
+package com.app.teachsphere.ui.ChatTutor
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class DashboardViewModel : ViewModel() {
+class ChatTutorViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
         value = "This is dashboard Fragment"
