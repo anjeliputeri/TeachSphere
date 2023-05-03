@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".SigninSiswa">
 
     <ImageView
         android:id="@+id/img_2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
         android:src="@drawable/logoteachsphere" />
@@ -17,7 +20,10 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/img_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="32dp"
         android:orientation="vertical"
         android:layout_below="@+id/img_2"
         android:padding="30dp"
@@ -41,7 +47,7 @@
             android:layout_marginTop="20dp"
             android:hint="Kata sandi"
             android:paddingStart="20dp"
-            android:paddingEnd="20dp"
+            android:paddingEnd="15dp"
             android:id="@+id/edit_kata_sandi"
             android:textColorHint="@color/primarycolor"
             android:drawableRight="@drawable/password"/>
@@ -54,12 +60,15 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/linear"
         android:layout_centerHorizontal="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/linear"
         android:layout_marginTop="20dp"
         android:background="@drawable/button_shape"
         android:fontFamily="@font/poppins_bold"
         android:text="@string/masuk"
-        android:textSize="16sp"
-        android:textColor="@color/buttoncolor">
+        android:textColor="@color/buttoncolor"
+        android:textSize="20sp">
 
     </Button>
 
@@ -68,12 +77,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/button_signinsiswa"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_signinsiswa"
         android:fontFamily="@font/poppins"
         android:text="@string/buatAkun"
-        android:layout_centerHorizontal="true"
         android:textColor="@color/primarycolor">
 
     </TextView>
 
 
-</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

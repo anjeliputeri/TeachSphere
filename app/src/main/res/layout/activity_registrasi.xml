@@ -4,51 +4,51 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".registrasi">
 
     <TextView
         android:id="@+id/registrasi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
         android:layout_marginTop="50dp"
-        android:layout_marginStart="16dp"
-        android:text="Registrasi"
         android:fontFamily="@font/poppins_bold"
+        android:text="Registrasi"
         android:textColor="@color/primarycolor"
-        android:textSize="30sp"/>
+        android:textSize="30sp" />
 
     <LinearLayout
+        android:id="@+id/linear"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
-        android:orientation="vertical"
         android:layout_below="@id/registrasi"
-        android:padding="30dp"
-        android:id="@+id/linear">
+        android:layout_marginTop="40dp"
+        android:orientation="vertical"
+        android:padding="30dp">
 
 
         <EditText
+            android:id="@+id/edit_email"
             android:layout_width="match_parent"
             android:layout_height="57dp"
             android:background="@drawable/button_outline"
+            android:drawableRight="@drawable/user"
             android:hint="Email"
-            android:textColorHint="@color/primarycolor"
             android:paddingStart="20dp"
             android:paddingEnd="20dp"
-            android:id="@+id/edit_email"
-            android:drawableRight="@drawable/user"/>
+            android:textColorHint="@color/primarycolor" />
 
         <EditText
+            android:id="@+id/edit_kata_sandi"
             android:layout_width="match_parent"
             android:layout_height="57dp"
-            android:background="@drawable/button_outline"
             android:layout_marginTop="20dp"
+            android:background="@drawable/button_outline"
+            android:drawableRight="@drawable/password"
             android:hint="Kata sandi"
             android:paddingStart="20dp"
             android:paddingEnd="20dp"
-            android:id="@+id/edit_kata_sandi"
-            android:textColorHint="@color/primarycolor"
-            android:drawableRight="@drawable/password"/>
+            android:textColorHint="@color/primarycolor" />
 
     </LinearLayout>
 
@@ -58,7 +58,6 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/linear"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="1dp"
         android:orientation="vertical"
         android:padding="10dp">
 
@@ -102,16 +101,16 @@
 
     <Button
         android:id="@+id/button_signinsiswa"
-        android:layout_width="300dp"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/pilihandaftar"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="100dp"
         android:background="@drawable/button_shape"
         android:fontFamily="@font/poppins_bold"
-        android:text="DAFTAR"
+        android:text="daftar"
         android:textColor="@color/buttoncolor"
-        android:textSize="20dp">
+        android:textSize="20sp">
 
     </Button>
 

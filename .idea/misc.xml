@@ -8,11 +8,13 @@
         <entry key="..\:/TeachSphere/app/src/main/res/layout/activity_caritutorsd.xml" value="0.14945652173913043" />
         <entry key="..\:/TeachSphere/app/src/main/res/layout/activity_caritutorsma.xml" value="0.10989583333333333" />
         <entry key="..\:/TeachSphere/app/src/main/res/layout/activity_caritutorsmp.xml" value="0.10989583333333333" />
+        <entry key="..\:/TeachSphere/app/src/main/res/layout/activity_registrasi.xml" value="0.4" />
         <entry key="..\:/TeachSphere/app/src/main/res/layout/activity_registrasitutor.xml" value="0.2" />
         <entry key="..\:/TeachSphere/app/src/main/res/layout/activity_sertifikasitutorsd.xml" value="0.10989583333333333" />
         <entry key="..\:/TeachSphere/app/src/main/res/layout/activity_sertifikatutorsma.xml" value="0.10989583333333333" />
         <entry key="..\:/TeachSphere/app/src/main/res/layout/activity_sertifikatutorsmp.xml" value="0.264" />
-        <entry key="..\:/TeachSphere/app/src/main/res/layout/activity_signin_siswa.xml" value="0.264" />
+        <entry key="..\:/TeachSphere/app/src/main/res/layout/activity_signin_siswa.xml" value="0.2" />
+        <entry key="..\:/TeachSphere/app/src/main/res/layout/activity_splashscreen.xml" value="0.1" />
       </map>
     </option>
   </component>
