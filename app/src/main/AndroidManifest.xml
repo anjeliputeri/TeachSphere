@@ -62,7 +62,7 @@
             android:name=".tutor.StartTest"
             android:exported="true" />
         <activity
-            android:name=".TutorProfile"
+            android:name=".siswa.TutorProfile"
             android:exported="true">
             <meta-data
                 android:name="android.app.lib_name"
@@ -88,6 +88,9 @@
             android:exported="true" />
         <activity
             android:name=".siswa.CariTutorSma"
+            android:exported="true" />
+        <activity
+            android:name=".siswa.UserProfileActivity"
             android:exported="true" />
         <meta-data
             android:name="preloaded_fonts"

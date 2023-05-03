@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageView
 import android.widget.TextView
+import androidx.cardview.widget.CardView
 import com.app.teachsphere.R
 
 class CariTutorSd : AppCompatActivity() {
@@ -24,6 +25,14 @@ class CariTutorSd : AppCompatActivity() {
         goSmp.setOnClickListener{
             val smp = Intent(this@CariTutorSd, CariTutorSmp::class.java)
             startActivity(smp)
+        }
+
+
+        val goYura = findViewById<CardView>(R.id.cdYura)
+
+        goYura.setOnClickListener{
+            val yura = Intent(this@CariTutorSd, TutorProfile::class.java)
+            startActivity(yura)
         }
     }
 }

@@ -9,7 +9,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import com.app.teachsphere.TutorProfile
+import com.app.teachsphere.siswa.TutorProfile
 import com.app.teachsphere.databinding.FragmentHomeBinding
 import com.app.teachsphere.siswa.CariTutorSd
 import com.app.teachsphere.siswa.CariTutorSma

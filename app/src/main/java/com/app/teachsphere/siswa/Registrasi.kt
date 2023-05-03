@@ -14,7 +14,7 @@ class Registrasi : AppCompatActivity() {
         val siswa = findViewById<RadioButton>(R.id.rb_siswa)
 
         siswa.setOnClickListener{
-            val goSiswa = Intent(this@Registrasi, HomeActivity::class.java)
+            val goSiswa = Intent(this@Registrasi, UserProfileActivity::class.java)
             startActivity(goSiswa)
         }
     }
