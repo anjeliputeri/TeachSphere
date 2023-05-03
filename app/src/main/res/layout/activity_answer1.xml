@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tutor.Question1">
+
+    <ImageView
+        android:id="@+id/ivBack"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/ic_back_blue"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"/>
+
+    <TextView
+        android:id="@+id/tvSoal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Soal Ujian"
+        android:textColor="@color/primary"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="20sp"
+        android:fontFamily="@font/poppins_bold"
+        android:layout_marginTop="32dp"/>
+
+    <Button
+        android:id="@+id/bTime"
+        android:layout_width="85dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/poppins"
+        android:text="05.00"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/tvSoal"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="373dp"
+        android:layout_height="13dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvSoal"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        app:cardCornerRadius="5dp"
+        app:cardBackgroundColor="@color/grey">
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cdSoal"
+        android:layout_width="370dp"
+        android:layout_height="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvSoal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="630dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        app:cardCornerRadius="5dp"
+        app:cardBackgroundColor="@color/white">
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="11dp"
+        android:layout_height="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvSoal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="630dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="370dp"
+        app:cardCornerRadius="4dp"
+        app:cardBackgroundColor="@color/green">
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/tvProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cdSoal"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/poppins"
+        android:textSize="14sp"
+        android:textColor="@color/primary"
+        android:text="Progress"/>
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/cdSoal"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/poppins"
+        android:textColor="@color/primary"
+        android:textSize="14sp"
+        android:text="1/5"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cdLine"
+        android:layout_width="380dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="5dp"
+        app:cardBackgroundColor="@color/grey"
+        app:cardCornerRadius="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvProgress">
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/tvSoal1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cdLine"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:text="“The leaves are similar to basil leaves,but tend \nto be narrower .. slightly serrated edges.”"
+        android:textColor="@color/primary"
+        android:justificationMode="inter_word"
+        android:textSize="16sp"
+        android:fontFamily="@font/poppins_medium"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/tvSoalOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvSoal1"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="3dp"
+        android:text="What is the correct word to fill the blank?"
+        android:textColor="@color/primary"
+        android:justificationMode="inter_word"
+        android:textSize="16sp"
+        android:fontFamily="@font/poppins_medium"/>
+
+    <TextView
+        android:id="@+id/tvAnswer1"
+        android:layout_width="390dp"
+        android:layout_height="54dp"
+        android:background="@drawable/shape_rectangle_yellow"
+        android:text="with"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvSoalOne"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:paddingStart="20dp"
+        android:gravity="left-center"/>
+
+    <TextView
+        android:id="@+id/tvAnswer2"
+        android:layout_width="390dp"
+        android:layout_height="54dp"
+        android:background="@drawable/shape_line_grey"
+        android:text="to"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvAnswer1"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:paddingStart="20dp"
+        android:gravity="left-center"/>
+
+    <TextView
+        android:id="@+id/tvAnswer3"
+        android:layout_width="390dp"
+        android:layout_height="54dp"
+        android:background="@drawable/shape_line_grey"
+        android:text="by"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvAnswer2"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:paddingStart="20dp"
+        android:gravity="left-center"/>
+
+    <TextView
+        android:id="@+id/tvAnswer4"
+        android:layout_width="390dp"
+        android:layout_height="54dp"
+        android:background="@drawable/shape_line_grey"
+        android:text="of"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvAnswer3"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:paddingStart="20dp"
+        android:gravity="left-center"/>
+
+    <ImageView
+        android:id="@+id/ivNext"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:src="@drawable/ic_next"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="32dp"/>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toStartOf="@id/ivNext"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="Lanjut"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="38dp"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="@color/primary"
+        android:textSize="16sp"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
