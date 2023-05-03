@@ -1,10 +1,10 @@
-package com.app.teachsphere.ui.notifications
+package com.app.teachsphere.ui.profilSiswa
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class NotificationsViewModel : ViewModel() {
+class ProfilSIswaViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
         value = "This is notifications Fragment"

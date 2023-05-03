@@ -1,22 +1,225 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".ui.notifications.NotificationsFragment">
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.profilSiswa.profilSiswaFragment">
 
     <TextView
-        android:id="@+id/text_notifications"
-        android:layout_width="match_parent"
+        android:id="@+id/text_profil"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Edit Profil"
+        android:textColor="@color/primarycolor"
         android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/image_fahri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fahri"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_profil" />
+
+    <ImageView
+        android:id="@+id/image_kamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:src="@drawable/kamera"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/image_fahri" />
+
+    <TextView
+        android:id="@+id/text_ubahprofil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Ubah Foto"
+        android:textColor="@color/primarycolor"
+        android:textSize="16sp"
+        app:layout_constraintBaseline_toBottomOf="@id/image_fahri"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_ubahprofil"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="170dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins"
+            android:text="Nama Lengkap"
+            android:textColor="@color/primarycolor"
+            android:textSize="16sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/button_outline"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/poppins"
+            android:paddingLeft="20dp"
+            android:text="Fahri Alfaruq"
+            android:textColor="@color/primarycolor"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins"
+            android:text="Email"
+            android:textColor="@color/primarycolor"
+            android:textSize="16sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/button_outline"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/poppins"
+            android:paddingLeft="20dp"
+            android:text="fahri@email"
+            android:textColor="@color/primarycolor"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins"
+            android:text="Kata Sandi"
+            android:textColor="@color/primarycolor"
+            android:textSize="16sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/button_outline"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/poppins"
+            android:paddingLeft="20dp"
+            android:text="********"
+            android:textColor="@color/primarycolor"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins"
+            android:text="Tanggal Lahir"
+            android:textColor="@color/primarycolor"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/edit_kata_sandi"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/button_outline"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/poppins"
+            android:paddingLeft="20dp"
+            android:text="02/02/2008"
+            android:textColor="@color/primarycolor"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins"
+            android:text="No Whatsapp"
+            android:textColor="@color/primarycolor"
+            android:textSize="16sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/button_outline"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/poppins"
+            android:paddingLeft="20dp"
+            android:text="085156407899"
+            android:textColor="@color/primarycolor"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins"
+            android:text="Alamat Domisili"
+            android:textColor="@color/primarycolor"
+            android:textSize="16sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/button_outline"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/poppins"
+            android:paddingLeft="10dp"
+            android:padding="15dp"
+            android:text="Jl. H. Adam Malik No.5, Sekip, Kec. Medan Petisah, Kota Medan, Sumatera Utara 20114"
+            android:textColor="@color/primarycolor"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/button_signinsiswa"
+            android:layout_width="312dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/linear"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/button_shape"
+            android:fontFamily="@font/poppins_bold"
+            android:text="SIMPAN"
+            android:textColor="@color/buttoncolor"
+            android:textSize="20sp">
+
+        </Button>
+
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
