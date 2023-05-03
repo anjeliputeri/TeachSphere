@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TutorPendidikanActivity">
+
+    <TextView
+        android:id="@+id/text_Pendidikan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pendidikan"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/Primary"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="52dp"
+        android:layout_marginStart="24dp"
+        />
+
+    <TextView
+        android:id="@+id/text_Sekolah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama Sekolah/Universitas*"
+        android:textSize="14sp"
+        android:textColor="@color/Primary"
+        app:layout_constraintTop_toBottomOf="@id/text_Pendidikan"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="29.49dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        />
+
+    <EditText
+        android:id="@+id/shape_Sekolah"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:paddingStart="14dp"
+        android:background="@drawable/shape_line_blue"
+        android:inputType="text"
+        android:ems="10"
+        android:hint="Universitas Islam Indonesia"
+        android:textColorHint="#838A8F"
+        app:layout_constraintTop_toBottomOf="@id/text_Sekolah"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"
+        />
+
+    <TextView
+        android:id="@+id/text_TMulai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tanggal Mulai*"
+        android:textSize="14sp"
+        android:textColor="@color/Primary"
+        app:layout_constraintTop_toBottomOf="@id/shape_Sekolah"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="4dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        />
+
+    <EditText
+        android:id="@+id/shape_TMulai"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:paddingStart="14dp"
+        android:background="@drawable/shape_line_blue"
+        android:inputType="text"
+        android:ems="10"
+        android:hint="02/02/2000"
+        android:textColorHint="#838A8F"
+        app:layout_constraintTop_toBottomOf="@id/text_TMulai"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"
+        />
+
+    <TextView
+        android:id="@+id/text_TSelesai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tanggal Selesai*"
+        android:textSize="14sp"
+        android:textColor="@color/Primary"
+        app:layout_constraintTop_toBottomOf="@id/shape_TMulai"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="4dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        />
+
+    <EditText
+        android:id="@+id/shape_TSelesai"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:paddingStart="14dp"
+        android:background="@drawable/shape_line_blue"
+        android:inputType="text"
+        android:ems="10"
+        android:hint="02/02/2000"
+        android:textColorHint="#838A8F"
+        app:layout_constraintTop_toBottomOf="@id/text_TSelesai"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"
+        />
+
+    <TextView
+        android:id="@+id/Tambah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="310dp"
+        android:layout_marginEnd="24dp"
+        android:text="Tambah"
+        android:gravity="center"
+        android:textColor="@color/Primary"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/shape_TSelesai"
+        />
+
+    <TextView
+        android:id="@+id/Lewati"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="293dp"
+        android:layout_marginStart="310dp"
+        android:layout_marginEnd="24dp"
+        android:text="Lewati"
+        android:gravity="center"
+        android:textColor="@color/Primary"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/shape_TSelesai"
+        />
+
+    <Button
+        android:id="@+id/button_Lanjut"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="30dp"
+        android:text="Lanjut"
+        android:backgroundTint="@color/Primary"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Profile">
+    tools:context=".UserProfileActivity">
 
     <TextView
         android:id="@+id/text_LProfil"
@@ -66,10 +66,11 @@
         android:layout_height="53dp"
         android:layout_marginStart="24dp"
         android:layout_marginEnd="24dp"
-        android:paddingStart="310dp"
+        android:paddingStart="305dp"
         android:background="@drawable/shape_line_blue"
         android:inputType="text"
         android:text="1/50"
+        android:textSize="20sp"
         android:textColor="@color/Primary"
         android:ems="10"
         app:layout_constraintTop_toBottomOf="@id/text_Username"
@@ -190,8 +191,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="18dp"
-        android:layout_marginStart="236dp"
-        android:layout_marginEnd="72dp"
+        android:layout_marginStart="310dp"
+        android:layout_marginEnd="24dp"
         android:text="Lewati"
         android:gravity="center"
         android:textColor="@color/Primary"
@@ -200,15 +201,13 @@
         app:layout_constraintTop_toBottomOf="@id/shape_Alamat"
     />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button_Lanjut"
-        android:layout_width="match_parent"
+        android:layout_width="312dp"
         android:layout_height="53dp"
-        android:layout_marginStart="130dp"
-        android:layout_marginEnd="130dp"
         android:layout_marginBottom="30dp"
         android:text="Lanjut"
-        android:backgroundTint="@color/Primary"
+        android:background="@drawable/shape_rectangle_blue"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
