@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/TeachSphere/app/src/main/res/drawable/button_outline.xml" value="0.121" />
+        <entry key="..\:/TeachSphere/app/src/main/res/drawable/searchview_background.xml" value="0.121" />
+        <entry key="..\:/TeachSphere/app/src/main/res/layout/activity_caritutorsd.xml" value="0.14945652173913043" />
+        <entry key="..\:/TeachSphere/app/src/main/res/layout/activity_caritutorsma.xml" value="0.10989583333333333" />
+        <entry key="..\:/TeachSphere/app/src/main/res/layout/activity_caritutorsmp.xml" value="0.10989583333333333" />
+        <entry key="..\:/TeachSphere/app/src/main/res/layout/activity_registrasitutor.xml" value="0.10989583333333333" />
+        <entry key="..\:/TeachSphere/app/src/main/res/layout/activity_sertifikasitutorsd.xml" value="0.10989583333333333" />
+        <entry key="..\:/TeachSphere/app/src/main/res/layout/activity_sertifikatutorsma.xml" value="0.10989583333333333" />
+        <entry key="..\:/TeachSphere/app/src/main/res/layout/activity_sertifikatutorsmp.xml" value="0.264" />
+        <entry key="..\:/TeachSphere/app/src/main/res/layout/activity_signin_siswa.xml" value="0.10989583333333333" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>

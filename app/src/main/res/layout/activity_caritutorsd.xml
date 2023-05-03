@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -16,13 +15,11 @@
         android:fontFamily="@font/poppins_bold"
         android:text="SD"
         android:textColor="@color/primarycolor"
-        android:textSize="20dp"
+        android:textSize="20sp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent">
-
-    </TextView>
+        app:layout_constraintStart_toStartOf="parent"/>
 
     <ImageView
         android:layout_width="wrap_content"
@@ -31,9 +28,7 @@
         android:layout_marginTop="32dp"
         android:src="@drawable/back"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-    </ImageView>
+        app:layout_constraintTop_toTopOf="parent"/>
 
     <ImageView
         android:layout_width="wrap_content"
@@ -42,9 +37,7 @@
         android:layout_marginTop="32dp"
         android:src="@drawable/maju"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-    </ImageView>
+        app:layout_constraintTop_toTopOf="parent"/>
 
         <androidx.appcompat.widget.SearchView
             android:id="@+id/searchview"
@@ -69,9 +62,7 @@
         android:fontFamily="@font/poppins_medium"
         android:text="Bahasa Inggris"
         android:textColor="@color/primarycolor"
-        android:textSize="16dp">
-
-    </TextView>
+        android:textSize="16sp"/>
 
     <LinearLayout
         android:id="@+id/bahasainggris"
@@ -94,9 +85,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:src="@drawable/adit">
-
-            </ImageView>
+                android:src="@drawable/adit"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -135,15 +124,14 @@
             android:layout_height="170dp"
             android:elevation="20sp"
             app:cardBackgroundColor="@color/primarycolor"
-            app:cardCornerRadius="30sp">
+            app:cardCornerRadius="30dp">
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:src="@drawable/jane">
+                android:src="@drawable/jane"/>
 
-            </ImageView>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -189,7 +177,7 @@
         android:fontFamily="@font/poppins_medium"
         android:text="Matematika"
         android:textColor="@color/primarycolor"
-        android:textSize="16dp">
+        android:textSize="16sp"/>
 
     <LinearLayout
         android:id="@+id/teksmtk"
@@ -213,9 +201,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:src="@drawable/yura">
+                android:src="@drawable/yura"/>
 
-            </ImageView>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -260,9 +247,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:src="@drawable/jani">
+                android:src="@drawable/jani"/>
 
-            </ImageView>
 
             <TextView
                 android:layout_width="wrap_content"

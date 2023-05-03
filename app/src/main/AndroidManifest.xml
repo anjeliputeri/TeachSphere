@@ -14,37 +14,7 @@
         android:theme="@style/Theme.TeachSphere"
         tools:targetApi="31">
         <activity
-            android:name=".registrasitutor"
-            android:exported="false" />
-        <activity
-            android:name=".sertifikatutorsma"
-            android:exported="false" />
-        <activity
-            android:name=".sertifikatutorsmp"
-            android:exported="false" />
-        <activity
-            android:name=".sertifikasitutorsd"
-            android:exported="false" />
-        <activity
-            android:name=".caritutorsma"
-            android:exported="false" />
-        <activity
-            android:name=".caritutorsmp"
-            android:exported="false" />
-        <activity
-            android:name=".caritutorsd"
-            android:exported="false" />
-        <activity
-            android:name=".Profil"
-            android:exported="false" />
-        <activity
-            android:name=".SigninSiswa"
-            android:exported="false" />
-        <activity
             android:name=".Splashscreen"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -52,10 +22,33 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <meta-data
-            android:name="preloaded_fonts"
-            android:resource="@array/preloaded_fonts" />
+        <activity
+            android:name=".registrasitutor"
+            android:exported="true" />
+        <activity
+            android:name=".sertifikatutorsma"
+            android:exported="true" />
+        <activity
+            android:name=".sertifikatutorsmp"
+            android:exported="true" />
+        <activity
+            android:name=".sertifikasitutorsd"
+            android:exported="true" />
+        <activity
+            android:name=".caritutorsma"
+            android:exported="true" />
+        <activity
+            android:name=".caritutorsmp"
+            android:exported="true" />
+        <activity
+            android:name=".caritutorsd"
+            android:exported="true" />
+        <activity
+            android:name=".Profil"
+            android:exported="true" />
+        <activity
+            android:name=".SigninSiswa"
+            android:exported="true" />
     </application>
 
 </manifest>

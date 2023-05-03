@@ -32,7 +32,7 @@
             android:textColor="@color/primarycolor"
             android:paddingLeft="30dp"
             android:id="@+id/edit_email"
-            android:drawableRight="@drawable/User"
+            android:drawableRight="@drawable/user"
             android:drawablePadding="10dp"/>
 
         <EditText
