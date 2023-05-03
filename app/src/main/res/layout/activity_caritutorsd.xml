@@ -73,14 +73,14 @@
 
     </TextView>
 
-
     <LinearLayout
+        android:id="@+id/bahasainggris"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="24dp"
         android:gravity="center"
         android:orientation="horizontal"
-        app:layout_constraintTop_toBottomOf="@id/teksbahasainggris">
+        app:layout_constraintTop_toBottomOf="@id/bahasainggris">
 
         <androidx.cardview.widget.CardView
             android:layout_width="150dp"
@@ -177,7 +177,114 @@
 
         </androidx.cardview.widget.CardView>
 
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bahasainggris"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/teksbahasainggris"
+        tools:layout_editor_absoluteX="0dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="170dp"
+            android:layout_marginEnd="50dp"
+            android:elevation="20sp"
+            app:cardBackgroundColor="@color/primarycolor"
+            app:cardCornerRadius="30sp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/yura">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/poppins"
+                android:text="Rp 50.000/Jam"
+                android:textColor="@color/buttoncolor"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="130dp"
+                android:fontFamily="@font/poppins"
+                android:text="Yura"
+                android:textColor="@color/buttoncolor"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="145dp"
+                android:fontFamily="@font/poppins"
+                android:text="Medan"
+                android:textColor="@color/buttoncolor"
+                android:textSize="12sp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="170dp"
+            android:elevation="20sp"
+            app:cardBackgroundColor="@color/primarycolor"
+            app:cardCornerRadius="30sp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/yura">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/poppins"
+                android:text="Rp 50.000/Jam"
+                android:textColor="@color/buttoncolor"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="130dp"
+                android:fontFamily="@font/poppins"
+                android:text="Yura"
+                android:textColor="@color/buttoncolor"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="145dp"
+                android:fontFamily="@font/poppins"
+                android:text="Medan"
+                android:textColor="@color/buttoncolor"
+                android:textSize="12sp" />
+
+        </androidx.cardview.widget.CardView>
 
     </LinearLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
