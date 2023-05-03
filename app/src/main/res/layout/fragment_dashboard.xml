@@ -10,11 +10,11 @@
         android:id="@+id/imageView2"
         android:layout_width="70dp"
         android:layout_height="70dp"
-        android:contentDescription="TODO"
         app:srcCompat="@drawable/photo_profile"
-        tools:ignore="ContentDescription,HardcodedText,MissingConstraints"
-        tools:layout_editor_absoluteX="31dp"
-        tools:layout_editor_absoluteY="174dp" />
+        app:layout_constraintTop_toTopOf="@id/view3"
+        app:layout_constraintStart_toStartOf="@id/view3"
+        app:layout_constraintBottom_toBottomOf="@id/view3"
+        android:layout_marginStart="10dp"/>
 
     <TextView
         android:id="@+id/text_chat"
@@ -34,10 +34,70 @@
         android:id="@+id/view"
         android:layout_width="312dp"
         android:layout_height="38dp"
+        android:layout_marginTop="16dp"
         android:background="@drawable/cari_box"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_chat" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="312dp"
+        android:layout_height="92dp"
+        android:background="@drawable/tutor_box"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/view"
+        android:layout_marginTop="32dp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="10dp"
+        android:text="Cari"
+        android:textColor="@color/primary"
+        app:layout_constraintEnd_toEndOf="@+id/view"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toTopOf="@id/view"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/poppins"
+        android:text="Permisi, saya mau tanya"
+        android:textColor="@color/primary"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@id/imageView2"
+        app:layout_constraintTop_toBottomOf="@id/textView4" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Yura"
+        android:textColor="@color/primary"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@id/imageView2"
+        app:layout_constraintTop_toTopOf="@id/view3"
         android:layout_marginTop="16dp"
-        app:layout_constraintTop_toBottomOf="@id/text_chat"/>
+        android:layout_marginStart="16dp"/>
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="11dp"
+        android:background="@drawable/ic_search"
+        app:layout_constraintEnd_toEndOf="@id/view"
+        app:layout_constraintTop_toTopOf="@id/view"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

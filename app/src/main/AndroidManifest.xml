@@ -31,6 +31,9 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".siswa.ChatTutorActivity"
+            android:exported="true" />
+        <activity
             android:name=".tutor.CompleteTest"
             android:exported="true" />
         <activity
@@ -99,6 +102,9 @@
             android:exported="true" />
         <activity
             android:name=".siswa.UserProfileActivity"
+            android:exported="true" />
+        <activity
+            android:name=".siswa.ChatFinishTutor"
             android:exported="true" />
 
         <meta-data
