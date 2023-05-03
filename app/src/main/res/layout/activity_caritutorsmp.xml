@@ -280,7 +280,7 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="130dp"
                 android:fontFamily="@font/poppins"
-                android:text="Putri"
+                android:text="Jane"
                 android:textColor="@color/buttoncolor"
                 android:textSize="12sp" />
 
