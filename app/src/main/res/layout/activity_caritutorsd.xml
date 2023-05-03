@@ -80,7 +80,7 @@
         android:layout_marginTop="24dp"
         android:gravity="center"
         android:orientation="horizontal"
-        app:layout_constraintTop_toBottomOf="@id/bahasainggris">
+        app:layout_constraintTop_toBottomOf="@id/teksmtk">
 
         <androidx.cardview.widget.CardView
             android:layout_width="150dp"
@@ -179,11 +179,23 @@
 
     </LinearLayout>
 
+    <TextView
+        android:id="@+id/mtk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/teksmtk"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Matematika"
+        android:textColor="@color/primarycolor"
+        android:textSize="16dp">
+
     <LinearLayout
-        android:id="@+id/bahasainggris"
+        android:id="@+id/teksmtk"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="5dp"
         android:gravity="center"
         android:orientation="horizontal"
         app:layout_constraintTop_toBottomOf="@id/teksbahasainggris"
