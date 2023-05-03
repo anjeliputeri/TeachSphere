@@ -41,13 +41,25 @@
             app:iconifiedByDefault="false"
             app:queryHint="cari" />
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bahasa Inggris"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="16dp"
+            android:textColor="@color/primarycolor"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp">
+
+        </TextView>
+
 
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="200dp"
         android:gravity="center"
         android:orientation="horizontal">
 
@@ -61,7 +73,7 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/yura"
+                android:src="@drawable/jani"
                 android:layout_gravity="center">
 
             </ImageView>
@@ -69,7 +81,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Rp 50.000/Jam"
+                android:text="Rp 75.000/Jam"
                 android:textColor="@color/buttoncolor"
                 android:fontFamily="@font/poppins"
                 android:textSize="12dp"
@@ -80,7 +92,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Yura"
+                android:text="Jani"
                 android:textColor="@color/buttoncolor"
                 android:fontFamily="@font/poppins"
                 android:textSize="12dp"
@@ -91,7 +103,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Medan"
+                android:text="Bekasi"
                 android:textColor="@color/buttoncolor"
                 android:textSize="12dp"
                 android:layout_gravity="center_horizontal"
