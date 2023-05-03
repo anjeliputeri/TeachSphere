@@ -94,7 +94,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:src="@drawable/yura">
+                android:src="@drawable/adit">
 
             </ImageView>
 
@@ -114,7 +114,7 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="130dp"
                 android:fontFamily="@font/poppins"
-                android:text="Yura"
+                android:text="Adit"
                 android:textColor="@color/buttoncolor"
                 android:textSize="12sp"/>
 
@@ -124,7 +124,7 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="145dp"
                 android:fontFamily="@font/poppins"
-                android:text="Medan"
+                android:text="Surabaya"
                 android:textColor="@color/buttoncolor"
                 android:textSize="12sp"/>
 
@@ -141,7 +141,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:src="@drawable/yura">
+                android:src="@drawable/jane">
 
             </ImageView>
 
@@ -161,7 +161,7 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="130dp"
                 android:fontFamily="@font/poppins"
-                android:text="Yura"
+                android:text="Jane"
                 android:textColor="@color/buttoncolor"
                 android:textSize="12sp"/>
 
@@ -260,7 +260,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:src="@drawable/yura">
+                android:src="@drawable/jani">
 
             </ImageView>
 
@@ -280,7 +280,7 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="130dp"
                 android:fontFamily="@font/poppins"
-                android:text="Yura"
+                android:text="Putri"
                 android:textColor="@color/buttoncolor"
                 android:textSize="12sp" />
 
@@ -290,7 +290,7 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="145dp"
                 android:fontFamily="@font/poppins"
-                android:text="Medan"
+                android:text="Semarang"
                 android:textColor="@color/buttoncolor"
                 android:textSize="12sp" />
 
