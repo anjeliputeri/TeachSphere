@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="190dp"
+    android:layout_gravity="center"
+    tools:ignore="TextSizeCheck">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/pop_up_kotak" />
+
+    <TextView
+        android:id="@+id/teksOnPop1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/anda_yakin_ingin_membatalkan_tutor"
+        android:textAlignment="center"
+        android:textColor="#195790"
+        android:textSize="26sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="175dp"
+        android:layout_marginBottom="0dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/ya"
+        android:textColor="#00897B"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="175dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/tidak"
+        android:textColor="#D32F2F"
+        android:textSize="25sp" />
+
+
+</RelativeLayout>

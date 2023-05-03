@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="D9D9D9"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:contentDescription="TODO"
+        app:srcCompat="@drawable/photo_profile"
+        tools:ignore="ContentDescription,HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="174dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_semibold"
+        android:gravity="center"
+        android:text="Tutor"
+        android:textColor="#195790"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteX="178dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:background="@drawable/cari_box"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="89dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"/>
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="match_parent"
+        android:layout_height="92dp"
+        android:background="@drawable/tutor_box"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="166dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:text="Cari"
+        android:textColor="#195790"
+        app:layout_constraintEnd_toEndOf="@+id/view"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteY="96dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_regular"
+        android:text="Berminata menjadi siswa saya?"
+        android:textColor="#195790"
+        android:textSize="14sp"
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="208dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_regular"
+        android:text="Yura"
+        android:textColor="#195790"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="181dp" />
+
+    <View
+        android:id="@+id/view6"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:background="@drawable/navbar"
+        android:backgroundTint="#97FEFAFD"
+        android:elevation="2dp"
+        android:padding="10dp"
+        tools:ignore="MissingConstraints,VisualLintBounds"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="851dp" />
+
+    <Button
+        android:id="@+id/imageButton2"
+        android:layout_width="29dp"
+        android:layout_height="47dp"
+        android:background="@drawable/tutor_icon"
+        android:contentDescription="TODO"
+        android:elevation="4dp"
+        android:visibility="visible"
+        tools:ignore="ContentDescription,HardcodedText,MissingConstraints,DuplicateSpeakableTextCheck,ImageContrastCheck,TouchTargetSizeCheck"
+        tools:layout_editor_absoluteX="191dp"
+        tools:layout_editor_absoluteY="864dp"
+        tools:visibility="visible" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="25dp"
+        android:layout_height="46dp"
+        android:background="@drawable/profile_icon"
+        android:contentDescription="TODO"
+        android:elevation="4dp"
+        tools:ignore="ContentDescription,HardcodedText,MissingConstraints,DuplicateSpeakableTextCheck,ImageContrastCheck,TouchTargetSizeCheck"
+        tools:layout_editor_absoluteX="294dp"
+        tools:layout_editor_absoluteY="864dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="44dp"
+        android:layout_height="47dp"
+        android:background="@drawable/home_icon"
+        android:elevation="4dp"
+        tools:ignore="ContentDescription,ImageContrastCheck,MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="864dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_search"
+        android:importantForAccessibility="no"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck"
+        tools:layout_editor_absoluteX="351dp"
+        tools:layout_editor_absoluteY="96dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:background="@drawable/ic_check"
+        tools:ignore="ContentDescription,MissingConstraints,ImageContrastCheck"
+        tools:layout_editor_absoluteX="319dp"
+        tools:layout_editor_absoluteY="174dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:background="@drawable/ic_silang"
+        tools:ignore="ContentDescription,MissingConstraints"
+        tools:layout_editor_absoluteX="351dp"
+        tools:layout_editor_absoluteY="174dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

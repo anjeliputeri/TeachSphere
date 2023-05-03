@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="D9D9D9"
+    android:background="#F3F3F3"
     tools:context=".MainActivity">
 
     <View
@@ -49,7 +49,7 @@
         android:layout_height="50dp"
         android:background="@drawable/chat_bubble"
         android:backgroundTint="#19578F"
-        tools:ignore="MissingConstraints"
+        tools:ignore="MissingConstraints,VisualLintBounds"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="725dp" />
 
@@ -58,9 +58,9 @@
         android:layout_width="360dp"
         android:layout_height="92dp"
         android:background="#195790"
+        tools:ignore="MissingConstraints,VisualLintBounds"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="-3dp"
-        tools:ignore="MissingConstraints,VisualLintBounds" />
+        tools:layout_editor_absoluteY="-3dp" />
 
     <TextView
         android:id="@+id/textView"
@@ -79,11 +79,11 @@
         android:id="@+id/imageView"
         android:layout_width="79dp"
         android:layout_height="79dp"
+        android:contentDescription="TODO"
         app:srcCompat="@drawable/photo_profile"
-        tools:layout_editor_absoluteX="45dp"
-        tools:layout_editor_absoluteY="6dp"
         tools:ignore="ContentDescription,HardcodedText,MissingConstraints"
-        android:contentDescription="TODO" />
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="6dp" />
 
     <TextView
         android:id="@+id/textView6"
@@ -162,10 +162,10 @@
         android:layout_width="45dp"
         android:layout_height="47dp"
         android:background="@drawable/back_butt"
+        android:importantForAccessibility="no"
         tools:ignore="MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="16dp"
-        android:importantForAccessibility="no" />
+        tools:layout_editor_absoluteY="16dp" />
 
     <ImageButton
         android:id="@+id/imageButton8"
@@ -176,7 +176,7 @@
         app:layout_constraintBottom_toBottomOf="@+id/view9"
         app:layout_constraintStart_toStartOf="@+id/view9"
         app:layout_constraintTop_toTopOf="@+id/view9"
-        tools:ignore="MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck,VisualLintBounds" />
 
     <ImageButton
         android:id="@+id/imageButton9"
@@ -188,6 +188,6 @@
         app:layout_constraintBottom_toBottomOf="@+id/view9"
         app:layout_constraintEnd_toEndOf="@+id/view9"
         app:layout_constraintTop_toTopOf="@+id/view9"
-        tools:ignore="MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck,VisualLintBounds" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

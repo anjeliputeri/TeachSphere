@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="290dp"
+    android:layout_gravity="center"
+    tools:ignore="TextSizeCheck">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/pop_up_kotak"
+        android:backgroundTint="#F4F4F4" />
+
+    <TextView
+        android:id="@+id/teksOnPop1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/bagaimana_pengalamanmu_belajar_dengan_tutor"
+        android:textAlignment="center"
+        android:textColor="#195790"
+        android:textSize="22sp" />
+
+    <View
+        android:layout_width="251dp"
+        android:layout_height="117dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="117dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="56dp"
+        android:background="@drawable/chat_bubble" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="147dp"
+        android:fontFamily="@font/poppins_regular"
+        android:text="@string/ceritakan_pengalamanmu"
+        android:textColor="#d9d9d9" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="83dp"
+        android:layout_height="22dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="259dp"
+        android:layout_marginTop="253dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/poppins_regular"
+        android:text="@string/lewati"
+        android:textColor="#19578F"
+        android:textSize="16sp" />
+
+    <ImageButton
+        android:id="@+id/suka_button"
+        android:layout_width="45dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="281dp"
+        android:layout_marginBottom="115dp"
+        android:background="@drawable/like_butt"
+        android:contentDescription="TODO" />
+
+    <ImageButton
+        android:id="@+id/panah_lewati"
+        android:layout_width="29dp"
+        android:layout_height="28dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="315dp"
+        android:layout_marginTop="251dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="11dp"
+        android:background="@drawable/next_butt" />
+
+
+</RelativeLayout>

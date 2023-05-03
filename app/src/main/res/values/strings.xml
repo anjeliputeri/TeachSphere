@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">TeachSphere</string>
+    <string name="apakah_kegiatan_belajar_telah_selesai">Apakah kegiatan belajar telah selesai?</string>
+    <string name="tidak">Tidak</string>
+    <string name="ya">Ya</string>
+    <string name="anda_yakin_ingin_membatalkan_tutor">Anda yakin ingin membatalkan tutor?</string>
+    <string name="bagaimana_pengalamanmu_belajar_dengan_tutor">Bagaimana pengalamanmu belajar dengan tutor?</string>
+    <string name="ceritakan_pengalamanmu">Ceritakan pengalamanmu</string>
+    <string name="lewati">Lewati</string>
 </resources>
