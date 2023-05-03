@@ -5,14 +5,15 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import com.app.teachsphere.HomeActivity
 import com.app.teachsphere.TutorProfile
 import com.app.teachsphere.databinding.FragmentHomeBinding
+import com.app.teachsphere.siswa.CariTutorSd
+import com.app.teachsphere.siswa.CariTutorSma
+import com.app.teachsphere.siswa.CariTutorSmp
 import com.app.teachsphere.tutor.StartTest
 
 class HomeFragment : Fragment() {
@@ -54,6 +55,28 @@ class HomeFragment : Fragment() {
                 it.startActivity(toTest)
             }
         }
+        var toSd : ImageView = binding.ivSdSiswa
+        toSd.setOnClickListener {
+            activity?.let {
+                val toSd = Intent(it, CariTutorSd::class.java)
+                it.startActivity(toSd)
+            }
+        }
+        var toSmp : ImageView = binding.ivSmpSiswa
+        toSmp.setOnClickListener {
+            activity?.let {
+                val toSmp = Intent(it, CariTutorSmp::class.java)
+                it.startActivity(toSmp)
+            }
+        }
+        var toSma : ImageView = binding.ivSmaSiswa
+        toSma.setOnClickListener {
+            activity?.let {
+                val toSma = Intent(it, CariTutorSma::class.java)
+                it.startActivity(toSma)
+            }
+        }
+
         return root
     }
 

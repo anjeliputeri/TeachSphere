@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
+import com.app.teachsphere.siswa.SigninSiswa
 
 class Splashscreen : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -12,7 +13,7 @@ class Splashscreen : AppCompatActivity() {
 
         var handler = Handler()
         handler.postDelayed({
-            var intent = Intent(this, SignInActivity::class.java)
+            var intent = Intent(this, SigninSiswa::class.java)
             startActivity(intent)
             finish()
         }, 4000)

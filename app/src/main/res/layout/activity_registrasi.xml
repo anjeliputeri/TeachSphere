@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".siswa.Registrasi">
+
+    <TextView
+        android:id="@+id/registrasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Registrasi"
+        android:textColor="@color/primarycolor"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/registrasi"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+
+        <EditText
+            android:id="@+id/edit_email"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:background="@drawable/button_outline"
+            android:drawableRight="@drawable/user"
+            android:hint="Email"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:textColorHint="@color/primarycolor" />
+
+        <EditText
+            android:id="@+id/edit_kata_sandi"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_outline"
+            android:drawableRight="@drawable/password"
+            android:hint="Kata sandi"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:textColorHint="@color/primarycolor" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/pilihandaftar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear"
+        android:layout_marginStart="30dp"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/daftarsebagai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Daftar sebagai"
+            android:textColor="@color/primarycolor"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:id="@+id/rg_daftar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rb_tutor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/primarycolor"
+                android:checked="false"
+                android:fontFamily="@font/poppins_medium"
+                android:text="Tutor"
+                android:textColor="@color/primarycolor" />
+
+            <RadioButton
+                android:id="@+id/rb_siswa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/primarycolor"
+                android:checked="false"
+                android:fontFamily="@font/poppins_medium"
+                android:text="Siswa"
+                android:textColor="@color/primarycolor" />
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_signinsiswa"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pilihandaftar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/button_shape"
+        android:fontFamily="@font/poppins_bold"
+        android:text="daftar"
+        android:textColor="@color/buttoncolor"
+        android:textSize="20sp">
+
+    </Button>
+
+
+</RelativeLayout>

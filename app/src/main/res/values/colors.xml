@@ -8,6 +8,8 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="primary">#195790</color>
+    <color name="primarycolor">#195790</color>
+    <color name="buttoncolor">#FFFFFF</color>
     <color name="red_like">#FA5456</color>
     <color name="yellow_review">#F8CD24</color>
     <color name="grey">#9DA7BA</color>

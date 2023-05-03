@@ -185,20 +185,20 @@
                 android:layout_marginEnd="100dp">
 
                 <ImageView
-                    android:id="@+id/ivSd"
+                    android:id="@+id/ivSdSiswa"
                     android:layout_width="180dp"
                     android:layout_height="200dp"
                     app:srcCompat="@drawable/sd" />
 
                 <ImageView
-                    android:id="@+id/ivSmp"
+                    android:id="@+id/ivSmpSiswa"
                     android:layout_width="180dp"
                     android:layout_height="200dp"
                     android:layout_marginStart="37dp"
                     app:srcCompat="@drawable/smp" />
 
                 <ImageView
-                    android:id="@+id/ivSma"
+                    android:id="@+id/ivSmaSiswa"
                     android:layout_width="180dp"
                     android:layout_height="200dp"
                     android:layout_marginStart="37dp"

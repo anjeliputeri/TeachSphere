@@ -1,12 +1,12 @@
-package com.app.teachsphere
+package com.app.teachsphere.siswa
 
 import android.os.Bundle
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
-import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
+import com.app.teachsphere.R
 import com.app.teachsphere.databinding.ActivityHomeBinding
 
 class HomeActivity : AppCompatActivity() {
