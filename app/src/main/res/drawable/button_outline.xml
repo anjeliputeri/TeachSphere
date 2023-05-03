@@ -2,6 +2,6 @@
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
     <stroke android:color="@color/primarycolor"
         android:width="4dp" />
-    <corners android:radius="45dp"/>
+    <corners android:radius="30dp"/>
 
 </shape>
