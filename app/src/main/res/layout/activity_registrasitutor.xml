@@ -32,78 +32,86 @@
             android:layout_height="57dp"
             android:background="@drawable/button_outline"
             android:hint="Email"
-            android:textColor="@color/primarycolor"
-            android:paddingLeft="30dp"
+            android:textColorHint="@color/primarycolor"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
             android:id="@+id/edit_email"
-            android:drawableRight="@drawable/user"
-            android:drawablePadding="10dp"/>
+            android:drawableRight="@drawable/user"/>
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="57dp"
             android:background="@drawable/button_outline"
             android:layout_marginTop="20dp"
-            android:hint="kata sandi"
-            android:paddingLeft="20dp"
+            android:hint="Kata sandi"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
             android:id="@+id/edit_kata_sandi"
-            android:textColor="@color/primarycolor"
-            android:drawableRight="@drawable/password"
-            android:drawablePadding="10dp"/>
+            android:textColorHint="@color/primarycolor"
+            android:drawableRight="@drawable/password"/>
 
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/pilihandaftar"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_marginTop="1dp"
-    android:orientation="vertical"
-    android:layout_below="@id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear"
         android:layout_marginStart="30dp"
-    android:padding="10dp">
+        android:layout_marginTop="1dp"
+        android:orientation="vertical"
+        android:padding="10dp">
 
         <TextView
             android:id="@+id/daftarsebagai"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_medium"
             android:text="Daftar sebagai"
-            android:fontFamily="@font/poppins_medium"
-            android:textSize="16sp"
-            android:textColor="@color/primarycolor"/>
+            android:textColor="@color/primarycolor"
+            android:textSize="16sp" />
 
-        <TextView
+        <RadioGroup
+            android:id="@+id/rg_daftar"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:text="Tutor"
-            android:fontFamily="@font/poppins_medium"
-            android:textSize="16sp"
-            android:textColor="@color/primarycolor"/>
+            android:layout_height="wrap_content">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:text="Siswa"
-            android:fontFamily="@font/poppins_medium"
-            android:textSize="16sp"
-            android:textColor="@color/primarycolor"/>
+            <RadioButton
+                android:id="@+id/rb_tutor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/primarycolor"
+                android:checked="false"
+                android:fontFamily="@font/poppins_medium"
+                android:text="Tutor"
+                android:textColor="@color/primarycolor" />
+
+            <RadioButton
+                android:id="@+id/rb_siswa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/primarycolor"
+                android:checked="false"
+                android:fontFamily="@font/poppins_medium"
+                android:text="Siswa"
+                android:textColor="@color/primarycolor" />
+        </RadioGroup>
 
 
     </LinearLayout>
 
     <Button
+        android:id="@+id/button_signinsiswa"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/pilihandaftar"
-        android:background="@drawable/button_shape"
-        android:layout_marginTop="100dp"
-        android:text="DAFTAR"
-        android:fontFamily="@font/poppins_bold"
-        android:textSize="20dp"
-        android:textColor="@color/buttoncolor"
         android:layout_centerHorizontal="true"
-        android:id="@+id/button_signinsiswa">
+        android:layout_marginTop="100dp"
+        android:background="@drawable/button_shape"
+        android:fontFamily="@font/poppins_bold"
+        android:text="DAFTAR"
+        android:textColor="@color/buttoncolor"
+        android:textSize="20dp">
 
     </Button>
 

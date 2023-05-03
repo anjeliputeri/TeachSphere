@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">TeachSphere</string>
     <string name="masuk">Masuk</string>
+    <string name="buatAkun">Belum memiliki akun?<u>Buat sekarang</u></string>
 </resources>

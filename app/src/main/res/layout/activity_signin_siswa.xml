@@ -23,43 +23,43 @@
         android:padding="30dp"
         android:id="@+id/linear">
 
-
         <EditText
             android:layout_width="match_parent"
             android:layout_height="57dp"
             android:background="@drawable/button_outline"
             android:hint="Email"
-            android:textColor="@color/primarycolor"
-            android:paddingLeft="30dp"
+            android:textColorHint="@color/primarycolor"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
             android:id="@+id/edit_email"
-            android:drawableRight="@drawable/user"
-            android:drawablePadding="10dp"/>
+            android:drawableRight="@drawable/user"/>
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="57dp"
             android:background="@drawable/button_outline"
             android:layout_marginTop="20dp"
-            android:hint="kata sandi"
-            android:paddingLeft="20dp"
+            android:hint="Kata sandi"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
             android:id="@+id/edit_kata_sandi"
-            android:textColor="@color/primarycolor"
-            android:drawableRight="@drawable/password"
-            android:drawablePadding="10dp"/>
+            android:textColorHint="@color/primarycolor"
+            android:drawableRight="@drawable/password"/>
 
     </LinearLayout>
 
     <Button
-        android:layout_width="300dp"
+        android:id="@+id/button_signinsiswa"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/linear"
-        android:background="@drawable/button_shape"
-        android:layout_marginTop="20dp"
-        android:text="@string/masuk"
-        android:fontFamily="@font/poppins_bold"
-        android:textColor="@color/buttoncolor"
         android:layout_centerHorizontal="true"
-        android:id="@+id/button_signinsiswa">
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_shape"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/masuk"
+        android:textSize="16sp"
+        android:textColor="@color/buttoncolor">
 
     </Button>
 
@@ -69,7 +69,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/button_signinsiswa"
         android:fontFamily="@font/poppins"
-        android:text="Belum memiliki akun? Buat sekarang"
+        android:text="@string/buatAkun"
         android:layout_centerHorizontal="true"
         android:textColor="@color/primarycolor">
 
