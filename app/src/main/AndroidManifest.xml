@@ -103,6 +103,9 @@
         <activity
             android:name=".siswa.UserProfileActivity"
             android:exported="true" />
+        <activity
+            android:name=".siswa.ChatFinishTutor"
+            android:exported="true" />
 
         <meta-data
             android:name="preloaded_fonts"
