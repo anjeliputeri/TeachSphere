@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".tutor.Question1">
+    tools:context=".tutor.Answer1">
 
     <ImageView
-        android:id="@+id/ivBack"
+        android:id="@+id/ivBackQ1"
         android:layout_width="24dp"
         android:layout_height="24dp"
         app:layout_constraintStart_toStartOf="parent"
@@ -65,9 +65,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tvSoal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginBottom="630dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="18dp"
         android:layout_marginStart="5dp"
         android:layout_marginEnd="5dp"
         app:cardCornerRadius="5dp"
@@ -81,9 +79,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tvSoal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginBottom="630dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="13dp"
         android:layout_marginStart="5dp"
         android:layout_marginEnd="370dp"
         app:cardCornerRadius="4dp"
@@ -164,7 +160,7 @@
         android:fontFamily="@font/poppins_medium"/>
 
     <TextView
-        android:id="@+id/tvAnswer1"
+        android:id="@+id/tvTrue1"
         android:layout_width="390dp"
         android:layout_height="54dp"
         android:background="@drawable/shape_rectangle_yellow"
@@ -177,7 +173,8 @@
         android:textSize="16sp"
         android:textColor="@color/black"
         android:paddingStart="20dp"
-        android:gravity="left-center"/>
+        android:padding="15dp"
+        android:gravity="left"/>
 
     <TextView
         android:id="@+id/tvAnswer2"
@@ -186,14 +183,15 @@
         android:background="@drawable/shape_line_grey"
         android:text="to"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tvAnswer1"
+        app:layout_constraintTop_toBottomOf="@id/tvTrue1"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="10dp"
         android:fontFamily="@font/poppins_semibold"
         android:textSize="16sp"
         android:textColor="@color/black"
         android:paddingStart="20dp"
-        android:gravity="left-center"/>
+        android:padding="15dp"
+        android:gravity="left"/>
 
     <TextView
         android:id="@+id/tvAnswer3"
@@ -209,7 +207,8 @@
         android:textSize="16sp"
         android:textColor="@color/black"
         android:paddingStart="20dp"
-        android:gravity="left-center"/>
+        android:padding="15dp"
+        android:gravity="left"/>
 
     <TextView
         android:id="@+id/tvAnswer4"
@@ -225,10 +224,11 @@
         android:textSize="16sp"
         android:textColor="@color/black"
         android:paddingStart="20dp"
-        android:gravity="left-center"/>
+        android:padding="15dp"
+        android:gravity="left"/>
 
     <ImageView
-        android:id="@+id/ivNext"
+        android:id="@+id/ivNextQ2"
         android:layout_width="50dp"
         android:layout_height="40dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -240,7 +240,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintEnd_toStartOf="@id/ivNext"
+        app:layout_constraintEnd_toStartOf="@id/ivNextQ2"
         app:layout_constraintBottom_toBottomOf="parent"
         android:text="Lanjut"
         android:layout_marginEnd="5dp"

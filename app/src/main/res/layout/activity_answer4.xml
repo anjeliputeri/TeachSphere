@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".tutor.Question3">
+    tools:context=".tutor.Answer4">
 
     <TextView
         android:id="@+id/tvSoal"
@@ -55,9 +55,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tvSoal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginBottom="630dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="18dp"
         android:layout_marginStart="5dp"
         android:layout_marginEnd="5dp"
         app:cardCornerRadius="5dp"
@@ -71,25 +69,21 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tvSoal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginBottom="630dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginStart="210dp"
-        android:layout_marginEnd="20dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginStart="175dp"
+        android:layout_marginEnd="5dp"
         app:cardCornerRadius="4dp"
         app:cardBackgroundColor="@color/green">
 
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
-        android:layout_width="275dp"
+        android:layout_width="280dp"
         android:layout_height="10dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tvSoal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginBottom="630dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="18dp"
         android:layout_marginStart="5dp"
         android:layout_marginEnd="100dp"
         app:cardBackgroundColor="@color/green">
@@ -166,20 +160,21 @@
         android:fontFamily="@font/poppins_medium"/>
 
     <TextView
-        android:id="@+id/tvAnswer1"
+        android:id="@+id/tvTrue14"
         android:layout_width="390dp"
         android:layout_height="54dp"
-        android:background="@drawable/shape_line_grey"
+        android:background="@drawable/shape_rectangle_yellow"
         android:text="We must not visit until the weekend"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tvSoalOne"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="16dp"
         android:fontFamily="@font/poppins_semibold"
         android:textSize="16sp"
         android:textColor="@color/black"
         android:paddingStart="20dp"
-        android:gravity="left-center"/>
+        android:padding="15dp"
+        android:gravity="left"/>
 
     <TextView
         android:id="@+id/tvAnswer2"
@@ -188,7 +183,7 @@
         android:background="@drawable/shape_line_grey"
         android:text="We are permitted to visit only in the\nweekend"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tvAnswer1"
+        app:layout_constraintTop_toBottomOf="@id/tvTrue14"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="10dp"
         android:fontFamily="@font/poppins_semibold"
@@ -196,7 +191,7 @@
         android:textColor="@color/black"
         android:paddingStart="20dp"
         android:padding="5dp"
-        android:gravity="left-center"/>
+        android:gravity="left"/>
 
     <TextView
         android:id="@+id/tvAnswer3"
@@ -212,7 +207,8 @@
         android:textSize="16sp"
         android:textColor="@color/black"
         android:paddingStart="20dp"
-        android:gravity="left-center"/>
+        android:padding="15dp"
+        android:gravity="left"/>
 
     <TextView
         android:id="@+id/tvAnswer4"
@@ -228,24 +224,25 @@
         android:textSize="16sp"
         android:textColor="@color/black"
         android:paddingStart="20dp"
-        android:gravity="left-center"/>
+        android:padding="15dp"
+        android:gravity="left"/>
 
     <ImageView
         android:id="@+id/ivNext"
         android:layout_width="50dp"
         android:layout_height="40dp"
+        app:layout_constraintTop_toBottomOf="@id/tvAnswer4"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
         android:src="@drawable/ic_next"
-        android:layout_marginBottom="32dp"/>
-    
+        android:layout_marginTop="32dp"/>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toStartOf="@id/ivNext"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvAnswer4"
         android:text="Lanjut"
-        android:layout_marginBottom="38dp"
+        android:layout_marginTop="38dp"
         android:fontFamily="@font/poppins_medium"
         android:textColor="@color/primary"
         android:textSize="16sp"/>
@@ -255,21 +252,20 @@
         android:layout_width="50dp"
         android:layout_height="40dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvAnswer4"
         android:src="@drawable/ic_back"
-        android:layout_marginBottom="32dp"/>
+        android:layout_marginTop="32dp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintStart_toEndOf="@id/ivSeblm"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvAnswer4"
         android:text="Sebelum"
-        android:layout_marginBottom="38dp"
+        android:layout_marginTop="38dp"
         android:fontFamily="@font/poppins_medium"
         android:textColor="@color/primary"
         android:textSize="16sp"/>
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

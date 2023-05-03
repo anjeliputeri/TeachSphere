@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".tutor.CompleteTest">
+    tools:context=".tutor.FailTest">
 
     <TextView
         android:id="@+id/tvYeay"
@@ -13,11 +13,11 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:text="Yeay, Berhasil !"
+        android:text="Jangan Patah Semangat !"
         android:fontFamily="@font/poppins_semibold"
         android:textColor="@color/primary"
         android:textSize="24sp"
-        android:layout_marginTop="50dp"/>
+        android:layout_marginTop="32dp"/>
 
     <TextView
         android:id="@+id/tvKet"
@@ -26,7 +26,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tvYeay"
-        android:text="anda mendapatkan keterampilan baru"
+        android:text="silahkan mengikuti tes 3 hari lagi"
         android:fontFamily="@font/poppins"
         android:textColor="@color/primary"
         android:textSize="14sp"
@@ -39,14 +39,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tvKet"
-        android:src="@drawable/img_piala"
+        android:src="@drawable/img_fail"
         android:layout_marginTop="5dp"/>
     
     
     <androidx.cardview.widget.CardView
         android:id="@+id/cdBlue"
         android:layout_width="300dp"
-        android:layout_height="300dp"
+        android:layout_height="80dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/ivTrophy"
@@ -75,15 +75,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/cdBlue"
         android:layout_marginTop="15dp"
-        android:layout_marginStart="210dp"
+        android:layout_marginStart="80dp"
         android:layout_marginEnd="20dp"
         app:cardCornerRadius="4dp"
-        app:cardBackgroundColor="@color/green">
+        app:cardBackgroundColor="@color/red_fail">
 
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
-        android:layout_width="210dp"
+        android:layout_width="80dp"
         android:layout_height="10dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -92,7 +92,7 @@
         android:layout_marginStart="10dp"
         android:layout_marginEnd="100dp"
         app:cardCornerRadius="5dp"
-        app:cardBackgroundColor="@color/green">
+        app:cardBackgroundColor="@color/red_fail">
 
     </androidx.cardview.widget.CardView>
 
@@ -113,7 +113,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="40dp"
             android:layout_marginStart="245dp"
-            android:text="80/100"
+            android:text="40/100"
             android:textColor="@color/white"
             android:textSize="14sp"
             android:fontFamily="@font/poppins"/>
@@ -133,15 +133,6 @@
 
         </androidx.cardview.widget.CardView>
 
-        <ImageView
-            android:id="@+id/ivSertif"
-            android:layout_width="280dp"
-            android:layout_height="200dp"
-            android:layout_marginStart="10dp"
-            android:layout_marginTop="80dp"
-            android:layout_marginEnd="5dp"
-            android:src="@drawable/img_sertif"/>
-
     </androidx.cardview.widget.CardView>
 
     <Button
@@ -150,8 +141,8 @@
         android:fontFamily="@font/poppins_medium"
         android:textSize="16sp"
         android:textColor="@color/white"
-        android:text="Selesai"
-        android:backgroun="@drawable/shape_rectangle_blue"
+        android:text="Kembali"
+        android:background="@drawable/shape_rectangle_5blue"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginEnd="16dp"

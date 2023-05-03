@@ -11,4 +11,8 @@
     <color name="red_like">#FA5456</color>
     <color name="yellow_review">#F8CD24</color>
     <color name="grey">#9DA7BA</color>
+    <color name="green">#33AE91</color>
+    <color name="yellow_stroke">#FFCB00</color>
+    <color name="yellow_answer">#FFF7D9</color>
+    <color name="red_fail">#F15153</color>
 </resources>

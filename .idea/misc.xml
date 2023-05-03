@@ -3,14 +3,40 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/TeachSphere/app/src/main/res/drawable-v24/shape_line_black.xml" value="0.1615" />
+        <entry key="..\:/TeachSphere/app/src/main/res/drawable-v24/shape_rectangle_grey.xml" value="0.1615" />
+        <entry key="..\:/TeachSphere/app/src/main/res/drawable/ic_back_blue.xml" value="0.1655" />
+        <entry key="..\:/TeachSphere/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.1" />
+        <entry key="..\:/TeachSphere/app/src/main/res/drawable/ic_next.xml" value="0.1615" />
+        <entry key="..\:/TeachSphere/app/src/main/res/drawable/ic_round_arrow_back_ios_24.xml" value="0.1655" />
+        <entry key="..\:/TeachSphere/app/src/main/res/drawable/ic_round_arrow_back_primary.xml" value="0.1655" />
+        <entry key="..\:/TeachSphere/app/src/main/res/drawable/rounded_primary_btn.xml" value="0.1615" />
         <entry key="..\:/TeachSphere/app/src/main/res/drawable/shape_line_blue.xml" value="0.164" />
+        <entry key="..\:/TeachSphere/app/src/main/res/drawable/shape_line_grey.xml" value="0.1655" />
+        <entry key="..\:/TeachSphere/app/src/main/res/drawable/shape_rectangle_10blue.xml" value="0.121" />
+        <entry key="..\:/TeachSphere/app/src/main/res/drawable/shape_rectangle_5blue.xml" value="0.1615" />
         <entry key="..\:/TeachSphere/app/src/main/res/drawable/shape_rectangle_blue.xml" value="0.164" />
-        <entry key="..\:/TeachSphere/app/src/main/res/layout/activity_sign_in.xml" value="0.2" />
-        <entry key="..\:/TeachSphere/app/src/main/res/layout/fragment_home.xml" value="0.12158054711246201" />
+        <entry key="..\:/TeachSphere/app/src/main/res/layout/activity_answer1.xml" value="0.1" />
+        <entry key="..\:/TeachSphere/app/src/main/res/layout/activity_answer2.xml" value="0.41333333333333333" />
+        <entry key="..\:/TeachSphere/app/src/main/res/layout/activity_answer3.xml" value="0.18518518518518517" />
+        <entry key="..\:/TeachSphere/app/src/main/res/layout/activity_answer4.xml" value="0.4" />
+        <entry key="..\:/TeachSphere/app/src/main/res/layout/activity_answer5.xml" value="0.4" />
+        <entry key="..\:/TeachSphere/app/src/main/res/layout/activity_complete_test.xml" value="0.264" />
+        <entry key="..\:/TeachSphere/app/src/main/res/layout/activity_fail_test.xml" value="0.264" />
         <entry key="..\:/TeachSphere/app/src/main/res/layout/activity_home.xml" value="0.1" />
         <entry key="..\:/TeachSphere/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/TeachSphere/app/src/main/res/layout/activity_question1.xml" value="0.2" />
+        <entry key="..\:/TeachSphere/app/src/main/res/layout/activity_question2.xml" value="0.264" />
+        <entry key="..\:/TeachSphere/app/src/main/res/layout/activity_question3.xml" value="0.264" />
+        <entry key="..\:/TeachSphere/app/src/main/res/layout/activity_question4.xml" value="0.1" />
+        <entry key="..\:/TeachSphere/app/src/main/res/layout/activity_question5.xml" value="0.264" />
+        <entry key="..\:/TeachSphere/app/src/main/res/layout/activity_sign_in.xml" value="0.2" />
+        <entry key="..\:/TeachSphere/app/src/main/res/layout/activity_splashscreen.xml" value="0.25" />
+        <entry key="..\:/TeachSphere/app/src/main/res/layout/activity_start_test.xml" value="0.264" />
+        <entry key="..\:/TeachSphere/app/src/main/res/layout/activity_tutor_profile.xml" value="0.25" />
         <entry key="..\:/TeachSphere/app/src/main/res/layout/fragment_dashboard.xml" value="0.25" />
-        <entry key="..\:/TeachSphere/app/src/main/res/layout/fragment_home.xml" value="0.2" />
+        <entry key="..\:/TeachSphere/app/src/main/res/layout/fragment_home.xml" value="0.264" />
+        <entry key="..\:/TeachSphere/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25" />
       </map>
     </option>
   </component>

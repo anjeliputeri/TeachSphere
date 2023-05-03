@@ -6,4 +6,157 @@
     android:layout_height="match_parent"
     tools:context=".tutor.CompleteTest">
 
+
+    <TextView
+        android:id="@+id/tvYeay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Yeay, Berhasil !"
+        android:textColor="@color/primary"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvKet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvYeay"
+        android:text="anda mendapatkan keterampilan baru"
+        android:fontFamily="@font/poppins"
+        android:textColor="@color/primary"
+        android:textSize="14sp"
+        android:layout_marginTop="5dp"/>
+    
+    <ImageView
+        android:id="@+id/ivTrophy"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvKet"
+        android:src="@drawable/img_piala"
+        android:layout_marginTop="5dp"/>
+    
+    
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cdBlue"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ivTrophy"
+        app:cardBackgroundColor="@color/primary"
+        app:cardCornerRadius="10dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cdHasil"
+        android:layout_width="280dp"
+        android:layout_height="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cdBlue"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="5dp"
+        app:cardCornerRadius="5dp"
+        app:cardBackgroundColor="@color/white">
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="11dp"
+        android:layout_height="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cdBlue"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="210dp"
+        android:layout_marginEnd="20dp"
+        app:cardCornerRadius="4dp"
+        app:cardBackgroundColor="@color/green">
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="210dp"
+        android:layout_height="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cdBlue"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="100dp"
+        app:cardCornerRadius="5dp"
+        app:cardBackgroundColor="@color/green">
+
+    </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tvScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="10dp"
+            android:text="Score"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:fontFamily="@font/poppins"/>
+
+        <TextView
+            android:id="@+id/tv80"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="245dp"
+            android:text="80/100"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:fontFamily="@font/poppins"/>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cdLine"
+            android:layout_width="280dp"
+            android:layout_height="1dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="65dp"
+            android:layout_marginEnd="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cdHasil">
+
+        </androidx.cardview.widget.CardView>
+
+        <ImageView
+            android:id="@+id/ivSertif"
+            android:layout_width="280dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginEnd="5dp"
+            android:src="@drawable/img_sertif"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_medium"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:text="Selesai"
+        android:background="@drawable/shape_rectangle_5blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="32dp"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

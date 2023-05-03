@@ -1,11 +1,11 @@
-package com.app.teachsphere
+package com.app.teachsphere.tutor
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageView
 import android.widget.TextView
-import com.app.teachsphere.tutor.StartTest
+import com.app.teachsphere.R
 
 class Question1 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

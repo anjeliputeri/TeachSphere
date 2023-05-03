@@ -4,9 +4,9 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.app.teachsphere.R
 
-class CompleteTest : AppCompatActivity() {
+class FailTest : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_complete_test)
+        setContentView(R.layout.activity_fail_test)
     }
 }

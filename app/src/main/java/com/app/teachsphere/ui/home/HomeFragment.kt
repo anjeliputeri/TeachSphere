@@ -13,6 +13,7 @@ import androidx.lifecycle.ViewModelProvider
 import com.app.teachsphere.HomeActivity
 import com.app.teachsphere.TutorProfile
 import com.app.teachsphere.databinding.FragmentHomeBinding
+import com.app.teachsphere.tutor.StartTest
 
 class HomeFragment : Fragment() {
 
@@ -44,6 +45,14 @@ class HomeFragment : Fragment() {
                val pindah = Intent(it, TutorProfile::class.java)
                it.startActivity(pindah)
            }
+        }
+
+        var imgToTest : ImageView = binding.ivHome
+        imgToTest.setOnClickListener{
+            activity?.let {
+                val toTest = Intent(it, StartTest::class.java)
+                it.startActivity(toTest)
+            }
         }
         return root
     }
