@@ -6,4 +6,58 @@
     android:layout_height="match_parent"
     tools:context=".Profile">
 
+    <TextView
+        android:id="@+id/text_LProfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lengkapi Profil"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/Primary"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="52dp"
+        android:layout_marginStart="24dp"
+        />
+
+    <ImageView
+        android:id="@+id/img_UProfil"
+        android:layout_width="127dp"
+        android:layout_height="121dp"
+        android:src="@drawable/ic_uploadbutton"
+        app:layout_constraintTop_toBottomOf="@id/text_LProfil"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="32dp"
+        />
+
+    <TextView
+        android:id="@+id/text_UPhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Unggah Photo"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/Primary"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/img_UProfil"
+        android:layout_marginTop="12dp"
+        />
+
+    <TextView
+        android:id="@+id/text_NLengkap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama_Lengkap"
+        android:textSize="14sp"
+        android:textColor="@color/Primary"
+        app:layout_constraintTop_toBottomOf="@id/text_UPhoto"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="23dp"
+        android:layout_marginStart="24dp"
+        />
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
