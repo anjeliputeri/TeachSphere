@@ -23,6 +23,9 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".siswa.ChatTutorActivity"
+            android:exported="true" />
+        <activity
             android:name=".tutor.CompleteTest"
             android:exported="true" />
         <activity
@@ -70,7 +73,7 @@
         </activity>
         <activity
             android:name=".siswa.HomeActivity"
-            android:exported="true"/>
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true" />
@@ -92,6 +95,7 @@
         <activity
             android:name=".siswa.UserProfileActivity"
             android:exported="true" />
+
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
