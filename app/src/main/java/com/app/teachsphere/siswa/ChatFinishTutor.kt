@@ -24,7 +24,7 @@ class ChatFinishTutor : AppCompatActivity() {
             builder.setTitle("Apakah kegiatan belajar telah selesai?")
             builder.setPositiveButton("IYA") { dialogInterface, i ->
                 // Pindah ke halaman lain
-                val intent = Intent(this@ChatFinishTutor, Registrasi::class.java)
+                val intent = Intent(this@ChatFinishTutor, SiswaFeedback::class.java)
                 startActivity(intent)
             }.setNegativeButton("TIDAK") { dialogInterface, i ->
                 finish()

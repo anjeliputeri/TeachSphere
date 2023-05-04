@@ -15,6 +15,7 @@
         <entry key="..\:/TeachSphere/app/src/main/res/drawable/ic_next.xml" value="0.1615" />
         <entry key="..\:/TeachSphere/app/src/main/res/drawable/ic_round_arrow_back_ios_24.xml" value="0.1655" />
         <entry key="..\:/TeachSphere/app/src/main/res/drawable/ic_round_arrow_back_primary.xml" value="0.1655" />
+        <entry key="..\:/TeachSphere/app/src/main/res/drawable/pop_up_kotak.xml" value="0.1145" />
         <entry key="..\:/TeachSphere/app/src/main/res/drawable/rounded_primary_btn.xml" value="0.1615" />
         <entry key="..\:/TeachSphere/app/src/main/res/drawable/shape_line_blue.xml" value="0.164" />
         <entry key="..\:/TeachSphere/app/src/main/res/drawable/shape_line_grey.xml" value="0.1655" />
@@ -32,6 +33,7 @@
         <entry key="..\:/TeachSphere/app/src/main/res/layout/activity_caritutorsmp.xml" value="0.20923913043478262" />
         <entry key="..\:/TeachSphere/app/src/main/res/layout/activity_complete_test.xml" value="0.264" />
         <entry key="..\:/TeachSphere/app/src/main/res/layout/activity_fail_test.xml" value="0.264" />
+        <entry key="..\:/TeachSphere/app/src/main/res/layout/activity_feedback.xml" value="0.25" />
         <entry key="..\:/TeachSphere/app/src/main/res/layout/activity_home.xml" value="0.1" />
         <entry key="..\:/TeachSphere/app/src/main/res/layout/activity_home_tutor.xml" value="0.25" />
         <entry key="..\:/TeachSphere/app/src/main/res/layout/activity_main.xml" value="0.1" />
@@ -60,6 +62,7 @@
         <entry key="..\:/TeachSphere/app/src/main/res/layout/pop_up_centang.xml" value="0.25" />
         <entry key="..\:/TeachSphere/app/src/main/res/layout/siswa_chat.xml" value="0.25" />
         <entry key="..\:/TeachSphere/app/src/main/res/layout/siswa_chatfinish.xml" value="0.25" />
+        <entry key="..\:/TeachSphere/app/src/main/res/layout/siswa_feedback.xml" value="0.25" />
         <entry key="..\:/TeachSphere/app/src/main/res/layout/tutor_box.xml" value="0.20244565217391305" />
         <entry key="..\:/TeachSphere/app/src/main/res/layout/tutor_chat.xml" value="0.264" />
         <entry key="..\:/TeachSphere/app/src/main/res/layout/tutor_chatfinish.xml" value="0.24635416666666668" />
