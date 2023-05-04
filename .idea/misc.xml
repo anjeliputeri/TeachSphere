@@ -58,6 +58,8 @@
         <entry key="..\:/TeachSphere/app/src/main/res/layout/fragment_profile_tutor.xml" value="0.25" />
         <entry key="..\:/TeachSphere/app/src/main/res/layout/fragment_siswa.xml" value="0.25" />
         <entry key="..\:/TeachSphere/app/src/main/res/layout/pop_up_centang.xml" value="0.25" />
+        <entry key="..\:/TeachSphere/app/src/main/res/layout/siswa_chat.xml" value="0.25" />
+        <entry key="..\:/TeachSphere/app/src/main/res/layout/siswa_chatfinish.xml" value="0.25" />
         <entry key="..\:/TeachSphere/app/src/main/res/layout/tutor_box.xml" value="0.20244565217391305" />
         <entry key="..\:/TeachSphere/app/src/main/res/layout/tutor_chat.xml" value="0.264" />
         <entry key="..\:/TeachSphere/app/src/main/res/layout/tutor_chatfinish.xml" value="0.24635416666666668" />

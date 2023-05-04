@@ -115,6 +115,12 @@
         <activity
             android:name=".tutor.SertifikasiTutorSma"
             android:exported="true"/>
+        <activity
+            android:name=".tutor.ChatFinishSiswa"
+            android:exported="true"/>
+        <activity
+            android:name=".tutor.ChatSiswaActivity"
+            android:exported="true"/>
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
