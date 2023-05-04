@@ -33,6 +33,7 @@
         <entry key="..\:/TeachSphere/app/src/main/res/layout/activity_complete_test.xml" value="0.264" />
         <entry key="..\:/TeachSphere/app/src/main/res/layout/activity_fail_test.xml" value="0.264" />
         <entry key="..\:/TeachSphere/app/src/main/res/layout/activity_home.xml" value="0.1" />
+        <entry key="..\:/TeachSphere/app/src/main/res/layout/activity_home_tutor.xml" value="0.25" />
         <entry key="..\:/TeachSphere/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/TeachSphere/app/src/main/res/layout/activity_question1.xml" value="0.2" />
         <entry key="..\:/TeachSphere/app/src/main/res/layout/activity_question2.xml" value="0.264" />
@@ -40,15 +41,22 @@
         <entry key="..\:/TeachSphere/app/src/main/res/layout/activity_question4.xml" value="0.1" />
         <entry key="..\:/TeachSphere/app/src/main/res/layout/activity_question5.xml" value="0.264" />
         <entry key="..\:/TeachSphere/app/src/main/res/layout/activity_registrasi.xml" value="0.2" />
+        <entry key="..\:/TeachSphere/app/src/main/res/layout/activity_sertifikasitutorsd.xml" value="0.25" />
+        <entry key="..\:/TeachSphere/app/src/main/res/layout/activity_sertifikatutorsma.xml" value="0.25" />
+        <entry key="..\:/TeachSphere/app/src/main/res/layout/activity_sertifikatutorsmp.xml" value="0.25" />
         <entry key="..\:/TeachSphere/app/src/main/res/layout/activity_sign_in.xml" value="0.2" />
         <entry key="..\:/TeachSphere/app/src/main/res/layout/activity_signin_siswa.xml" value="0.20923913043478262" />
         <entry key="..\:/TeachSphere/app/src/main/res/layout/activity_splashscreen.xml" value="0.25" />
         <entry key="..\:/TeachSphere/app/src/main/res/layout/activity_start_test.xml" value="0.264" />
         <entry key="..\:/TeachSphere/app/src/main/res/layout/activity_tutor_profile.xml" value="0.2" />
         <entry key="..\:/TeachSphere/app/src/main/res/layout/activity_user_profile.xml" value="0.25" />
+        <entry key="..\:/TeachSphere/app/src/main/res/layout/fragment_beranda_tutor.xml" value="0.25" />
         <entry key="..\:/TeachSphere/app/src/main/res/layout/fragment_dashboard.xml" value="0.25" />
         <entry key="..\:/TeachSphere/app/src/main/res/layout/fragment_home.xml" value="0.264" />
+        <entry key="..\:/TeachSphere/app/src/main/res/layout/fragment_keterampilan.xml" value="0.25" />
         <entry key="..\:/TeachSphere/app/src/main/res/layout/fragment_notifications.xml" value="0.1" />
+        <entry key="..\:/TeachSphere/app/src/main/res/layout/fragment_profile_tutor.xml" value="0.25" />
+        <entry key="..\:/TeachSphere/app/src/main/res/layout/fragment_siswa.xml" value="0.25" />
         <entry key="..\:/TeachSphere/app/src/main/res/layout/pop_up_centang.xml" value="0.25" />
         <entry key="..\:/TeachSphere/app/src/main/res/layout/tutor_box.xml" value="0.20244565217391305" />
         <entry key="..\:/TeachSphere/app/src/main/res/layout/tutor_chat.xml" value="0.264" />

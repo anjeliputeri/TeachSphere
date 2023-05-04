@@ -15,6 +15,7 @@ import com.app.teachsphere.siswa.CariTutorSd
 import com.app.teachsphere.siswa.CariTutorSma
 import com.app.teachsphere.siswa.CariTutorSmp
 import com.app.teachsphere.tutor.StartTest
+import org.w3c.dom.Text
 
 class HomeFragment : Fragment() {
 
@@ -46,6 +47,14 @@ class HomeFragment : Fragment() {
                val pindah = Intent(it, TutorProfile::class.java)
                it.startActivity(pindah)
            }
+        }
+
+        var pilih : TextView = binding.tvPilih
+        pilih.setOnClickListener{
+            activity?.let {
+                val toTutorSd = Intent(it, CariTutorSd::class.java)
+                it.startActivity(toTutorSd)
+            }
         }
 
         var imgToTest : ImageView = binding.ivHome

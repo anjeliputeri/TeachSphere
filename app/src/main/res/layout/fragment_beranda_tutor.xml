@@ -36,38 +36,37 @@
 
             <ImageView
                 android:id="@+id/ivHome"
-                android:layout_width="173dp"
-                android:layout_height="173dp"
-                android:layout_marginStart="200dp"
-                android:layout_marginTop="32dp"
-                android:layout_marginEnd="20dp"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_marginStart="150dp"
+                android:layout_marginEnd="10dp"
                 android:layout_marginBottom="24dp"
-                app:srcCompat="@drawable/img_home" />
+                app:srcCompat="@drawable/home_tutor" />
 
             <TextView
                 android:id="@+id/tvTemu"
-                android:layout_width="158dp"
-                android:layout_height="60dp"
-                android:layout_marginStart="20dp"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_marginStart="16dp"
                 android:layout_marginTop="32dp"
                 android:layout_marginEnd="182dp"
                 android:layout_marginBottom="110dp"
                 android:fontFamily="@font/poppins_bold"
-                android:text="Temukan tutor impianmu"
+                android:text="Share pengetahuanmu dengan menjadi tutor"
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/tvPilih"
-                android:layout_width="119dp"
+                android:layout_width="125dp"
                 android:layout_height="22dp"
-                android:layout_marginStart="20dp"
+                android:layout_marginStart="16dp"
                 android:layout_marginTop="90dp"
                 android:layout_marginEnd="221dp"
                 android:layout_marginBottom="88dp"
                 android:fontFamily="@font/poppins_medium"
-                android:text="@string/pilih_sekarang"
+                android:text="@string/mulai_sekarang"
                 android:textColor="@color/white"
                 android:textSize="16sp" />
 
@@ -88,20 +87,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/cdHome" />
 
-        <TextView
-            android:id="@+id/tvDetail"
-            android:layout_width="50dp"
-            android:layout_height="30dp"
-            android:layout_marginStart="150dp"
-            android:layout_marginTop="32dp"
-            android:layout_marginEnd="20dp"
-            android:text="Detail"
-            android:textColor="@color/grey"
-            android:textSize="16sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@id/tvTutor"
-            app:layout_constraintTop_toBottomOf="@+id/cdHome" />
-
         <HorizontalScrollView
             android:id="@+id/svTutor"
             android:layout_width="match_parent"
@@ -115,42 +100,25 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
-                android:orientation="horizontal">
+                android:orientation="vertical">
 
                 <ImageView
-                    android:id="@+id/ivPhoto1"
+                    android:id="@+id/imgKeterampilan"
+                    android:src="@drawable/english"
+                    android:layout_marginStart="10dp"
                     android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    app:srcCompat="@drawable/tutor1" />
+                    android:layout_height="80dp"/>
 
-                <ImageView
-                    android:id="@+id/ivPhoto2"
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:layout_marginStart="27dp"
-                    app:srcCompat="@drawable/tutor2" />
+                <TextView
+                    android:textColor="@color/primary"
+                    android:fontFamily="@font/poppins"
+                    android:text="Bahasa Inggris"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/imgKeterampilan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
 
-                <ImageView
-                    android:id="@+id/ivPhoto3"
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:layout_marginStart="27dp"
-                    app:srcCompat="@drawable/tutor3" />
 
-                <ImageView
-                    android:id="@+id/ivPhoto4"
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:layout_marginStart="27dp"
-                    app:srcCompat="@drawable/tutor4" />
-
-                <ImageView
-                    android:id="@+id/ivPhoto5"
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:layout_marginStart="27dp"
-                    android:layout_marginEnd="27dp"
-                    app:srcCompat="@drawable/tutor5" />
 
             </LinearLayout>
         </HorizontalScrollView>
@@ -185,7 +153,7 @@
                 android:layout_marginEnd="100dp">
 
                 <ImageView
-                    android:id="@+id/ivSdSiswa"
+                    android:id="@+id/ivSdTutor"
                     android:layout_width="180dp"
                     android:layout_height="200dp"
                     app:srcCompat="@drawable/sd" />
